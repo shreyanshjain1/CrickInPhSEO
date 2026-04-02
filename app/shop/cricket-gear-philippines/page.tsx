@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 const productSections = [
   {
     title: 'Starter gear',
-    body: 'A good gear hub should explain what a beginner actually needs first, instead of dumping every product type onto the page. That usually starts with a bat, a ball, and a clearer explanation of format-specific gear.',
+    body: 'Beginners usually do not need everything at once. A stronger gear hub explains what to buy first, what can wait, and how format choice changes the list.',
   },
   {
     title: 'Bats and balls',
-    body: 'These are the clearest product-led topics, so I split them into dedicated pages as well. That makes keyword targeting cleaner and avoids turning one page into a messy catch-all.',
+    body: 'Bats and balls deserve their own pages because the keyword intent is stronger and the buyer questions are more specific than general gear searches.',
   },
   {
-    title: 'Marketplace intent',
-    body: 'In the Philippines, product demand often shows up through marketplace searches first. So this page is designed to support informational confidence and then move users toward relevant shopping paths.',
+    title: 'Marketplace pathways',
+    body: 'In the Philippines, product demand often appears through Lazada and Shopee searches first, so this hub supports that behaviour with clearer paths into those marketplaces.',
   },
 ];
 
@@ -28,10 +28,10 @@ export default function CricketGearPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Commercial SEO</div>
+          <div className="kicker">Cricket gear</div>
           <h1>Cricket gear in the Philippines</h1>
           <p className="lead">
-            I pushed the commercial side of the site further here. Instead of one generic product page, this section now works like a gear hub with clearer pathways into bats, balls, and beginner buying decisions.
+            This section is designed for readers who are already looking at equipment. It connects beginner buying questions with bats, balls, and direct shopping routes in the Philippines.
           </p>
         </div>
       </section>
@@ -39,10 +39,10 @@ export default function CricketGearPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>How I structured the gear hub</h2>
+            <h2>How the gear hub is organised</h2>
             <p>
-              A stronger commercial page should not feel like a thin affiliate page. It needs enough useful information to help the reader make sense of what they need,
-              while still keeping the route to products and marketplaces visible.
+              A useful commercial page should help someone make sense of what they need before pushing them into product listings. That makes the page more credible,
+              improves time on page, and creates cleaner internal links into more specific equipment topics.
             </p>
 
             <div className="grid-3">
@@ -59,14 +59,14 @@ export default function CricketGearPage() {
               <a className="tag-link" href="https://www.lazada.com.ph/tag/cricket-bat/" target="_blank" rel="noreferrer">Lazada cricket bats</a>
               <a className="tag-link" href="https://www.lazada.com.ph/catalog/?q=cricket+ball" target="_blank" rel="noreferrer">Lazada cricket balls</a>
               <a className="tag-link" href="https://shopee.ph/search?keyword=cricket%20bat" target="_blank" rel="noreferrer">Shopee cricket bats</a>
-              <a className="tag-link" href="https://www.cricketstoreonline.com/" target="_blank" rel="noreferrer">International cricket store reference</a>
+              <a className="tag-link" href="https://shopee.ph/search?keyword=cricket%20ball" target="_blank" rel="noreferrer">Shopee cricket balls</a>
             </div>
 
             <h2>Commercial pages linked from here</h2>
             <ul>
               <li>Dedicated category page for cricket bats in the Philippines</li>
               <li>Dedicated category page for cricket balls in the Philippines</li>
-              <li>Beginner guide that explains what to buy first</li>
+              <li>Beginner guide explaining what to buy first</li>
               <li>Comparison content that helps users choose the right gear path</li>
             </ul>
           </article>

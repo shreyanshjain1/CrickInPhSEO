@@ -16,7 +16,7 @@ export default function GettingStartedPage() {
           <div className="kicker">Beginner guide</div>
           <h1>How to start playing cricket in the Philippines</h1>
           <p className="lead">
-            This page gives the site a friendlier on-ramp. I wanted a reader who knows almost nothing about cricket to land here and still feel like the next steps are clear.
+            If you are new to cricket, the best first step is keeping things simple: understand the format, find the right environment to play, and only then buy the gear you actually need.
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default function GettingStartedPage() {
           <article className="card page-copy">
             <h2>Start simple</h2>
             <p>
-              The easiest way to begin is not by buying everything at once. It is by understanding the format you are likely to play, finding the right community or session,
+              The easiest way to begin is not by buying everything at once. It is by understanding the format you are likely to play, finding the right club or session,
               and then buying only the most relevant starter items.
             </p>
 
@@ -38,7 +38,7 @@ export default function GettingStartedPage() {
               <li>Use the bats and balls pages to make a more informed purchase later</li>
             </ol>
 
-            <h2>What beginners often search for</h2>
+            <h2>Common beginner searches</h2>
             <ul>
               <li>how to start cricket in the philippines</li>
               <li>cricket for beginners manila</li>

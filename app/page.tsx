@@ -30,30 +30,29 @@ export default function HomePage() {
 
       <section className="hero hero-v2">
         <div className="container hero-grid hero-grid-v2">
-          <div className="hero-copy hero-copy-v2">
+          <div className="hero-copy hero-copy-v2 card">
             <span className="eyebrow">Cricket guides, clubs, and gear</span>
-            <h1>A stronger cricket website for the Philippines, rebuilt around real search intent.</h1>
+            <h1>Cricket in the Philippines: where to play, how to start, and what to buy.</h1>
             <p className="lead">
-              I reworked this project so it reads more like a proper niche website and less like a
-              portfolio landing page. The structure now balances evergreen guides, beginner content,
-              local discovery, and commercial pages for people looking for cricket gear in the Philippines.
+              This site brings together the main things people usually look for when they discover cricket in the Philippines:
+              beginner guides, local clubs, playing venues, format explainers, and equipment pages for bats, balls, and starter gear.
             </p>
             <div className="hero-actions">
               <Link href="/guides/cricket-in-the-philippines" className="button primary">
-                Start with the main guide
+                Read the main guide
               </Link>
               <Link href="/shop/cricket-gear-philippines" className="button secondary">
-                Browse cricket gear pages
+                Explore cricket gear
               </Link>
             </div>
           </div>
 
           <div className="hero-side hero-side-v2">
             <div className="hero-highlight card soft-card">
-              <div className="kicker">What changed in V2</div>
+              <div className="kicker">Inside the site</div>
               <p className="lead compact-lead">
-                I removed the obvious instructional language, tightened the structure, added more natural content pages,
-                and pushed the SEO further into product and buying-intent territory.
+                Start broad with the main guide, move into clubs and venues if you want to play, then use the gear hub for
+                bats, balls, and beginner buying questions.
               </p>
             </div>
             <div className="metric-grid metric-grid-v2">
@@ -72,7 +71,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <div className="kicker">Featured sections</div>
-            <h2>Pages that make the site feel more complete</h2>
+            <h2>Start with the page that matches what you need</h2>
           </div>
           <div className="grid-3">
             {featuredCards.map((item) => (
@@ -88,23 +87,22 @@ export default function HomePage() {
       <section>
         <div className="container split-callout split-callout-v2">
           <article className="card page-copy">
-            <div className="kicker">Content direction</div>
-            <h2>Why the site feels more natural now</h2>
+            <div className="kicker">For new players</div>
+            <h2>Learn the sport without getting overwhelmed</h2>
             <p>
-              The homepage no longer tries to explain every strategy decision upfront. Instead, it works
-              like a content hub. Visitors can move into the pages that match what they want: learning the sport,
-              finding places to play, comparing formats, or buying equipment.
+              If you are completely new to cricket, the easiest path is to start with the beginner guide, understand the difference
+              between tape-ball and hard-ball cricket, and then check where local clubs or practice sessions are active.
             </p>
             <p>
-              I kept one dedicated page for the build decisions so the rest of the site can stay focused on cricket.
+              That gives you a clearer route into the sport before you spend money on equipment that may not match the format you play.
             </p>
           </article>
           <article className="card page-copy">
-            <div className="kicker">SEO direction</div>
-            <h2>How I pushed the commercial side further</h2>
+            <div className="kicker">For gear buyers</div>
+            <h2>Product pages built around real buying intent</h2>
             <p>
-              I expanded the product layer with category-style pages for cricket gear, bats, and balls. That makes the
-              commercial intent clearer and gives the site more room for keyword clustering, internal links, and buyer-style FAQs.
+              The gear section is split into natural categories so readers can move from general cricket gear into bats and balls,
+              compare options, and then visit Philippine marketplaces or international cricket stores with more confidence.
             </p>
             <div className="inline-links">
               <Link href="/shop/cricket-gear-philippines" className="tag-link">Gear hub</Link>
@@ -118,8 +116,8 @@ export default function HomePage() {
       <section>
         <div className="container">
           <div className="section-head">
-            <div className="kicker">Build strengths</div>
-            <h2>What this version does better</h2>
+            <div className="kicker">Site strengths</div>
+            <h2>Why this structure works</h2>
           </div>
           <div className="grid-3">
             {features.map((item) => (
@@ -136,7 +134,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <div className="kicker">FAQ</div>
-            <h2>Common questions this structure answers</h2>
+            <h2>Common questions</h2>
           </div>
           <div className="grid-3">
             {faqs.map((item) => (

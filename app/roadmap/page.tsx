@@ -3,9 +3,9 @@ import PageSidebar from '@/components/PageSidebar';
 import { roadmap } from '@/lib/site-data';
 
 export const metadata: Metadata = {
-  title: 'Site roadmap',
+  title: 'Growth topics for cricket content in the Philippines',
   description:
-    'Notes on future content, SEO, and measurement improvements for this cricket website project.',
+    'A practical list of future content opportunities around venues, product clusters, seasonal updates, and measurement for cricket in the Philippines.',
   alternates: { canonical: '/roadmap' },
 };
 
@@ -14,10 +14,10 @@ export default function RoadmapPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Roadmap</div>
-          <h1>Where I would take the site next</h1>
+          <div className="kicker">Growth topics</div>
+          <h1>Future content opportunities for cricket in the Philippines</h1>
           <p className="lead">
-            I kept a roadmap section because it is useful documentation, but I no longer let it dominate the rest of the website.
+            As the site grows, the strongest next step is going deeper into local intent, product coverage, and seasonal updates that make the topic more useful over time.
           </p>
         </div>
       </section>

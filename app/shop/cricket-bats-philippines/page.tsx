@@ -16,7 +16,7 @@ export default function CricketBatsPage() {
           <div className="kicker">Product category</div>
           <h1>Cricket bats in the Philippines</h1>
           <p className="lead">
-            I split bats into their own page because the keyword intent is strong enough to deserve a cleaner category. It also gives the gear hub a more realistic internal-linking structure.
+            Cricket bat searches usually come with stronger buying intent than generic gear searches, so this page focuses on beginner fit, format choice, and where to shop.
           </p>
         </div>
       </section>
@@ -24,9 +24,9 @@ export default function CricketBatsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>What a bat page should do</h2>
+            <h2>What a good bat page should answer</h2>
             <p>
-              This page should help people choose, not just click away immediately. A better category page explains beginner fit, the difference between casual and more serious use,
+              A stronger category page should help people choose, not just click away immediately. That means explaining beginner fit, the difference between casual and more serious use,
               and where marketplace results start to make sense.
             </p>
 
@@ -40,6 +40,7 @@ export default function CricketBatsPage() {
             <div className="inline-links">
               <a className="tag-link" href="https://www.lazada.com.ph/tag/cricket-bat/" target="_blank" rel="noreferrer">Browse cricket bats on Lazada</a>
               <a className="tag-link" href="https://shopee.ph/search?keyword=cricket%20bat" target="_blank" rel="noreferrer">Browse cricket bats on Shopee</a>
+              <a className="tag-link" href="https://www.cricketstoreonline.com/collections/cricket-bats" target="_blank" rel="noreferrer">See international bat options</a>
             </div>
           </article>
 

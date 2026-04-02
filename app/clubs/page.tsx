@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 const blocks = [
   {
     title: 'Official pathway',
-    body: 'The community page should lean on official and recognizable entities first. That trust signal matters in a niche sport because it reassures new players that the scene is active and organised.',
+    body: 'Start with official and recognisable organisations first. That helps new players find trusted entry points into the sport and understand how the local scene is organised.',
   },
   {
-    title: 'Beginner-friendly intent',
-    body: 'Most people who land here are not looking for a perfect history lesson. They want to know if they can join, what the atmosphere is like, and whether they need full gear before turning up.',
+    title: 'Beginner-friendly environment',
+    body: 'Most people landing on this page want to know whether they can join, what the atmosphere is like, and whether they need full gear before showing up.',
   },
   {
-    title: 'Fresh content opportunities',
-    body: 'Women’s cricket, youth development, school programs, and club-level updates can all support more current content and stronger internal links from evergreen pages.',
+    title: 'Fresh community topics',
+    body: 'Women’s cricket, youth development, school programmes, and club-level updates all create useful ongoing content around the local game.',
   },
 ];
 
@@ -28,10 +28,10 @@ export default function ClubsPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Community page</div>
+          <div className="kicker">Community</div>
           <h1>Cricket clubs and community in the Philippines</h1>
           <p className="lead">
-            I wanted this page to feel useful first. Instead of reading like a note to recruiters, it now behaves more like a page someone would actually visit when they want to join, follow, or understand the local scene.
+            Community pages are where curiosity turns into participation. This is the right place to understand how the local scene works, where to look for organised cricket, and what a new player should expect.
           </p>
         </div>
       </section>
@@ -39,10 +39,9 @@ export default function ClubsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why community pages matter in a niche sport</h2>
+            <h2>Why community matters in a developing cricket market</h2>
             <p>
-              In a developing sports ecosystem, community pages do a lot of heavy lifting. They answer beginner questions, connect visitors to the right official resources,
-              and create the trust that makes people more willing to explore clubs, events, and equipment pages.
+              In a niche sport, community pages do a lot of heavy lifting. They answer beginner questions, connect readers to official resources, and make it easier to move into venues, events, and equipment pages with confidence.
             </p>
 
             <div className="grid-3">
@@ -54,12 +53,12 @@ export default function ClubsPage() {
               ))}
             </div>
 
-            <h2>What this page should guide people toward</h2>
+            <h2>Useful next steps from here</h2>
             <ul>
-              <li>Official association resources and updates</li>
-              <li>Beginner pathways and development activity</li>
-              <li>Venue and training discovery</li>
-              <li>Equipment explainers for first-time players</li>
+              <li>Check official association resources and updates</li>
+              <li>Move into the beginner guide if you are new to the sport</li>
+              <li>Use the venues page to narrow down where you may be able to play</li>
+              <li>Read the gear pages only after you know which format you are likely to start with</li>
             </ul>
           </article>
 

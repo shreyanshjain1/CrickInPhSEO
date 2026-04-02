@@ -1,21 +1,13 @@
 # Cricket in the Philippines
 
-I rebuilt this project to feel more like a real niche website and less like a project that only exists to explain itself.
+I built this site as a content-focused Next.js project around a real niche topic: cricket in the Philippines.
 
-The topic is still **cricket in the Philippines**, but I pushed it further in two directions:
-- a cleaner editorial structure for discovery, beginner, and local-intent content
-- a stronger commercial layer for cricket gear, bats, and balls
-
-## What I changed in this version
-
-- rewrote the homepage so it feels more natural and content-led
-- removed the obvious instructional wording from the public pages
-- added a beginner guide page
-- added an events and calendar page
-- expanded the shopping section into a gear hub plus dedicated bat and ball pages
-- added `robots.ts` and `sitemap.ts` for a stronger SEO baseline
-- updated the design system to look more intentional and less generic
-- upgraded Next.js to a patched release line
+The goal was to create something that feels closer to a genuine content property than a one-page demo. The structure combines:
+- evergreen topic pages
+- beginner guides
+- local discovery pages
+- community and club pages
+- product-led cricket gear pages for buyers in the Philippines
 
 ## Pages included
 
@@ -28,9 +20,9 @@ The topic is still **cricket in the Philippines**, but I pushed it further in tw
 - `/shop/cricket-gear-philippines` — gear hub
 - `/shop/cricket-bats-philippines` — bat category page
 - `/shop/cricket-balls-philippines` — ball category page
-- `/news/philippines-cricket-calendar` — freshness and event page
-- `/about-site` — first-person notes on the rebuild
-- `/roadmap` — future improvements
+- `/news/philippines-cricket-calendar` — calendar and event page
+- `/about-site` — useful cricket links page
+- `/roadmap` — future content opportunities
 
 ## Stack
 
@@ -54,9 +46,8 @@ npm run build
 npm run start
 ```
 
-## Notes to update after deployment
+## Live domain configured
 
-Replace `https://example.com` in the following files with the real domain:
-- `lib/site-data.ts`
-- `app/robots.ts`
-- `app/sitemap.ts`
+The project metadata, sitemap, and robots file are already configured to use:
+
+`https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app`

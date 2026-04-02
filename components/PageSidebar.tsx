@@ -11,10 +11,9 @@ export default function PageSidebar() {
         </Link>
       ))}
       <div className="callout neutral-callout">
-        <strong>Why I rebuilt the structure</strong>
+        <strong>Popular pathways</strong>
         <p className="small" style={{ marginBottom: 0 }}>
-          I wanted the pages to read more naturally while still keeping the content architecture,
-          search intent, and SEO signals deliberate.
+          Start with the main guide, move into clubs or venues, then use the gear pages once you know which format you want to play.
         </p>
       </div>
     </aside>

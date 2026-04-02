@@ -16,7 +16,7 @@ export default function ComparisonPage() {
           <div className="kicker">Comparison</div>
           <h1>Tape ball vs hard ball cricket</h1>
           <p className="lead">
-            Comparison pages are useful because they answer real beginner questions quickly. I kept this page because it helps the site catch curiosity-driven searches and move readers into the right next content.
+            One of the first questions many beginners have is whether they are stepping into casual tape-ball games or formal hard-ball cricket. That choice affects both the playing experience and the gear you need.
           </p>
         </div>
       </section>
@@ -24,9 +24,9 @@ export default function ComparisonPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why comparison content belongs here</h2>
+            <h2>Why the difference matters</h2>
             <p>
-              Someone who is brand new to cricket may not know what gear they need, how formal the sport feels, or whether they should start casually first. This page exists to lower that decision barrier.
+              Someone new to the sport may not know what equipment is required, how formal the environment feels, or whether it makes more sense to begin casually first. This page helps lower that decision barrier.
             </p>
 
             <h2>Quick comparison</h2>
@@ -35,8 +35,8 @@ export default function ComparisonPage() {
                 <h3>Tape-ball cricket</h3>
                 <ul>
                   <li>Usually easier for casual and beginner play</li>
-                  <li>Lower pressure entry point for social games</li>
-                  <li>Useful for introducing the sport without full protective setup</li>
+                  <li>Lower-pressure entry point for social games</li>
+                  <li>Useful for learning basic movement, hitting, and bowling rhythm</li>
                 </ul>
               </article>
               <article className="resource-box">
@@ -44,15 +44,15 @@ export default function ComparisonPage() {
                 <ul>
                   <li>Closer to formal and competitive match play</li>
                   <li>Needs more attention to safety equipment</li>
-                  <li>Better fit for players progressing into club structures</li>
+                  <li>Better fit for players progressing into structured club cricket</li>
                 </ul>
               </article>
             </div>
 
             <div className="callout neutral-callout">
-              <strong>Where this page helps the site</strong>
+              <strong>Good next pages</strong>
               <p className="small" style={{ marginBottom: 0 }}>
-                It acts as a bridge between broad beginner traffic and more specific pages like getting started, clubs, bats, and balls.
+                Move from here into the beginner guide, local clubs, or the bats and balls pages depending on which format feels closest to your next step.
               </p>
             </div>
           </article>

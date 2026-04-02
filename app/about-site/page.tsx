@@ -2,21 +2,60 @@ import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
-  title: 'About this cricket website build',
+  title: 'Useful cricket links in the Philippines',
   description:
-    'A first-person page explaining how I rebuilt the structure, design, and SEO of this cricket website project.',
+    'Official cricket organisations, community resources, and shopping links for readers exploring cricket in the Philippines.',
   alternates: { canonical: '/about-site' },
 };
 
-export default function AboutSitePage() {
+const resources = [
+  {
+    title: 'Philippine Cricket Association',
+    body: 'The national governing body is the best place to start for official updates, programmes, and wider local cricket context.',
+    href: 'https://philippinecricket.org/',
+    label: 'Visit PCA',
+  },
+  {
+    title: 'ICC member profile',
+    body: 'The ICC member page offers a quick background on the Philippines as part of the wider international cricket structure.',
+    href: 'https://www.icc-cricket.com/about/members/associate/philippines-cricket-association',
+    label: 'View ICC profile',
+  },
+  {
+    title: 'Nomads Sports Club',
+    body: 'Nomads is closely associated with the long-running history of cricket in Manila and remains a useful reference point for the local scene.',
+    href: 'https://www.nomadssportsclub.com/',
+    label: 'Visit Nomads',
+  },
+  {
+    title: 'Lazada cricket searches',
+    body: 'Marketplace demand in the Philippines often shows up through category and search pages for bats, balls, and starter equipment.',
+    href: 'https://www.lazada.com.ph/tag/cricket-bat/',
+    label: 'Browse Lazada',
+  },
+  {
+    title: 'Shopee cricket searches',
+    body: 'Shopee can also be a useful check for product availability, beginner price points, and casual-play options.',
+    href: 'https://shopee.ph/search?keyword=cricket%20bat',
+    label: 'Browse Shopee',
+  },
+  {
+    title: 'International cricket retail reference',
+    body: 'International specialist stores help when comparing equipment categories, product terminology, and format-specific gear.',
+    href: 'https://www.cricketstoreonline.com/',
+    label: 'Visit store',
+  },
+];
+
+export default function UsefulLinksPage() {
   return (
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">About the build</div>
-          <h1>Why I rebuilt the site this way</h1>
+          <div className="kicker">Useful links</div>
+          <h1>Useful cricket links in the Philippines</h1>
           <p className="lead">
-            I wanted one page where I could explain the decisions openly without making the rest of the website feel like it only exists to be judged as a project.
+            This page gathers official organisations, cricket community references, and shopping links that help readers move from learning about the sport into playing or buying gear.
           </p>
         </div>
       </section>
@@ -24,20 +63,17 @@ export default function AboutSitePage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>What I changed</h2>
-            <ul>
-              <li>Removed the obvious instructional and tool-like wording</li>
-              <li>Reworked the homepage so it behaves more like a content portal</li>
-              <li>Added beginner, event, and product category pages</li>
-              <li>Strengthened the commercial SEO side with cleaner product pathways</li>
-              <li>Updated the design system so the UI feels more deliberate and less template-like</li>
-            </ul>
-
-            <h2>What I wanted the site to prove</h2>
-            <p>
-              I wanted the project to show both editorial judgment and implementation ability. The pages are not random. Each one has a search role, a linking role,
-              and a reason to exist inside the larger structure.
-            </p>
+            <div className="grid-2">
+              {resources.map((resource) => (
+                <article className="resource-box" key={resource.title}>
+                  <h3>{resource.title}</h3>
+                  <p>{resource.body}</p>
+                  <a className="tag-link" href={resource.href} target="_blank" rel="noreferrer">
+                    {resource.label}
+                  </a>
+                </article>
+              ))}
+            </div>
           </article>
 
           <PageSidebar />

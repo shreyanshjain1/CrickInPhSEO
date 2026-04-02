@@ -1,8 +1,8 @@
 export const site = {
   name: 'Cricket in the Philippines',
-  url: 'https://example.com',
+  url: 'https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app',
   description:
-    'A content-rich website about cricket in the Philippines covering where to play, how to start, community resources, and cricket gear buying guides.',
+    'A content-rich website about cricket in the Philippines covering where to play, how to start, local clubs, events, and cricket gear buying guides.',
 };
 
 export const stats = [
@@ -16,64 +16,64 @@ export const stats = [
   },
   {
     value: '26 clubs',
-    label: 'Organised cricket activity in the country now spans multiple clubs and development pathways.',
+    label: 'The ICC member profile notes active clubs and organised cricket activity across the country.',
   },
   {
-    value: 'Beginner to buyer',
-    label: 'This site connects discovery content, local guides, and cricket gear pages in one structure.',
+    value: 'Guides + gear',
+    label: 'The site covers beginner content, local participation, and cricket buying guides in one structure.',
   },
 ];
 
 export const features = [
   {
-    title: 'A cleaner topical structure',
-    body: 'I organized the site around the natural ways people search: learning the sport, finding where to play, comparing formats, joining communities, and buying gear.',
+    title: 'Clear topical clusters',
+    body: 'The site is grouped around the main ways people search: learning the sport, finding where to play, joining clubs, comparing formats, and buying equipment.',
   },
   {
-    title: 'Commercial pages that feel useful',
-    body: 'The gear pages are written as buying guides instead of thin sales pages, so they support trust, search intent, and outbound clicks to relevant product options.',
+    title: 'Commercial pages with real intent',
+    body: 'The gear pages are written as useful buying guides with links to relevant marketplaces, not thin sales pages with no context.',
   },
   {
-    title: 'SEO foundations built into the code',
-    body: 'I kept the structure crawlable and added metadata, JSON-LD helpers, robots, and sitemap support so the site is stronger technically, not only editorially.',
+    title: 'Technical SEO foundations',
+    body: 'Metadata, JSON-LD, crawlable internal links, a sitemap, and robots support are already built into the codebase.',
   },
 ];
 
 export const roadmap = [
   {
-    phase: 'Content',
-    title: 'Expand city and venue coverage',
-    body: 'The strongest next step would be city pages for Metro Manila, Clark, Cebu, and Davao with more specific venue, club, and beginner information.',
+    phase: 'Local pages',
+    title: 'Expand city-level coverage',
+    body: 'The strongest next step is a deeper set of city and venue pages for Metro Manila, Clark, Cebu, and Davao with club contacts and beginner-friendly notes.',
   },
   {
-    phase: 'Commercial SEO',
+    phase: 'Gear content',
     title: 'Build deeper product clusters',
-    body: 'I would continue with category pages for bats, balls, gloves, pads, and beginner bundles, then support them with how-to-choose content and FAQs.',
+    body: 'Protective gear, gloves, pads, shoes, and beginner bundles can each support their own intent-driven page with stronger FAQs and buyer comparisons.',
   },
   {
-    phase: 'Authority',
-    title: 'Add fixtures and event templates',
-    body: 'Fresh event pages can support returning traffic, help internal linking, and create more reasons for community pages to earn links and shares.',
+    phase: 'Freshness',
+    title: 'Publish seasonal updates',
+    body: 'Tournament recaps, training clinics, youth programs, and women’s cricket updates can keep the topic fresh while supporting evergreen guides.',
   },
   {
     phase: 'Measurement',
-    title: 'Track real user actions',
-    body: 'The right events to measure here are outbound clicks to clubs and associations, clicks to product marketplaces, and engagement with the beginner content journey.',
+    title: 'Track outbound and engagement events',
+    body: 'The most useful events here are clicks to official organisations, marketplace clicks, and movement through the beginner journey into clubs or gear pages.',
   },
 ];
 
 export const faqs = [
   {
     q: 'Can you play cricket in the Philippines as a complete beginner?',
-    a: 'Yes. A good beginner experience usually starts with community-led sessions, tape-ball play, or club introductions before moving into more formal hard-ball cricket.',
+    a: 'Yes. Many players begin through community sessions, tape-ball games, or club introductions before moving into more formal hard-ball cricket.',
   },
   {
-    q: 'Why does this site include both guides and product pages?',
-    a: 'Because people do not search in only one way. Some want to learn first, some want to find a club, and some are already looking for bats, balls, or starter gear.',
+    q: 'Where should a new player start?',
+    a: 'The best first step is learning the format, checking nearby clubs or playing venues, and buying only the starter gear that matches that format.',
   },
   {
-    q: 'What was my goal in building the site this way?',
-    a: 'I wanted the site to feel like a real niche publication with a commercial layer, not a landing page pretending to be a content strategy.',
+    q: 'Can you buy cricket gear in the Philippines?',
+    a: 'Yes. Cricket bats, balls, and beginner gear can be found through Philippine marketplaces such as Lazada and Shopee, alongside international cricket retailers.',
   },
 ];
 
@@ -88,38 +88,39 @@ export const sidebarLinks = [
   { href: '/shop/cricket-bats-philippines', label: 'Cricket bats' },
   { href: '/shop/cricket-balls-philippines', label: 'Cricket balls' },
   { href: '/news/philippines-cricket-calendar', label: 'Calendar & events' },
-  { href: '/about-site', label: 'About this build' },
+  { href: '/about-site', label: 'Useful links' },
+  { href: '/roadmap', label: 'Growth topics' },
 ];
 
 export const featuredCards = [
   {
     href: '/guides/cricket-in-the-philippines',
     title: 'Cricket in the Philippines',
-    body: 'An evergreen guide that introduces the local scene, the governing structure, and the best next pages to visit.',
+    body: 'An evergreen guide introducing the local scene, key organisations, and the best next pages to visit.',
   },
   {
     href: '/beginners/getting-started',
     title: 'How to get started',
-    body: 'A practical beginner path that covers first steps, formats, basic gear, and the easiest way to enter the sport locally.',
+    body: 'A practical beginner path covering first steps, formats, starter gear, and how to enter the sport locally.',
   },
   {
     href: '/resources/playgrounds',
     title: 'Where to play',
-    body: 'A location-focused guide for people looking for fields, clubs, practice environments, and likely entry points.',
+    body: 'A location-led guide for players looking for fields, clubs, practice environments, and possible entry points.',
   },
   {
     href: '/shop/cricket-gear-philippines',
-    title: 'Buy cricket gear in the Philippines',
-    body: 'A commercial hub that ties together gear education, marketplace demand, and product-specific buying pages.',
+    title: 'Cricket gear in the Philippines',
+    body: 'A gear hub covering bats, balls, and beginner buying questions with direct marketplace pathways.',
   },
   {
     href: '/news/philippines-cricket-calendar',
-    title: 'Calendar and season guide',
-    body: 'A content template for fixtures, seasonality, tournaments, and event-related publishing opportunities.',
+    title: 'Calendar and events',
+    body: 'A season guide for tournament recaps, community activity, and event-led content opportunities.',
   },
   {
     href: '/about-site',
-    title: 'About this build',
-    body: 'The one place where I explain the decisions behind the architecture, UI direction, and SEO structure.',
+    title: 'Useful links',
+    body: 'Official organisations, marketplaces, and cricket resources that help readers move beyond the guide pages.',
   },
 ];

@@ -17,9 +17,9 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
-    url: `https://example.com${route}`,
+    url: `https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app${route}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: route === '' ? 1 : 0.7,
+    changeFrequency: route.includes('/news/') ? 'daily' : 'weekly',
+    priority: route === '' ? 1 : route.startsWith('/guides/') || route.startsWith('/shop/') ? 0.9 : 0.7,
   }));
 }

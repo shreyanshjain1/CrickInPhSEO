@@ -16,7 +16,7 @@ export default function CricketBallsPage() {
           <div className="kicker">Product category</div>
           <h1>Cricket balls in the Philippines</h1>
           <p className="lead">
-            Balls deserve their own page too. They carry distinct intent, especially for searches that are closer to format choice, training level, and immediate purchase behavior.
+            Ball searches often sit close to format choice, training level, and immediate purchase behaviour. This page helps readers narrow down what they should actually be looking for.
           </p>
         </div>
       </section>
@@ -24,9 +24,9 @@ export default function CricketBallsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>How this category supports SEO</h2>
+            <h2>Why this page matters</h2>
             <p>
-              This page gives the gear section one more true category target. It also lets the site capture searches that are more specific than general gear terms but not yet brand-specific.
+              This page targets a more specific kind of equipment search than the main gear hub. It supports readers who already know they need a ball, but still need help with format, durability, and where to buy.
             </p>
 
             <h2>Common buyer considerations</h2>
@@ -39,6 +39,7 @@ export default function CricketBallsPage() {
             <div className="inline-links">
               <a className="tag-link" href="https://www.lazada.com.ph/catalog/?q=cricket+ball" target="_blank" rel="noreferrer">Browse cricket balls on Lazada</a>
               <a className="tag-link" href="https://shopee.ph/search?keyword=cricket%20ball" target="_blank" rel="noreferrer">Browse cricket balls on Shopee</a>
+              <a className="tag-link" href="https://www.cricketstoreonline.com/collections/cricket-balls" target="_blank" rel="noreferrer">See international ball options</a>
             </div>
           </article>
 

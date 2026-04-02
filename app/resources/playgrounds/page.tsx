@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 const venueIdeas = [
   {
     title: 'Metro Manila and nearby hubs',
-    body: 'A location page should start where search demand is most practical. Metro Manila gives the topic enough volume, enough community history, and enough adjacent areas to support local discovery pages later.',
+    body: 'Local demand usually starts with Metro Manila and nearby areas because that is where people are most likely to search for clubs, fields, and entry points into the sport.',
   },
   {
     title: 'Club-led participation',
-    body: 'In niche sports, the place to play is often tied to club access, training days, and community contacts rather than a clean list of public venues. That is why this page should connect directly into clubs and beginner resources.',
+    body: 'In niche sports, the place to play is often tied to club access, training days, and community contacts rather than a long list of public venues.',
   },
   {
-    title: 'Location SEO opportunities',
-    body: 'This section can expand into pages like cricket in Manila, cricket in Clark, or beginner cricket near me style content once there is enough local information to support them properly.',
+    title: 'Local SEO opportunities',
+    body: 'This page can naturally expand into city-specific guides such as cricket in Manila, cricket in Clark, or beginner cricket near me style topics.',
   },
 ];
 
@@ -31,8 +31,7 @@ export default function PlaygroundsPage() {
           <div className="kicker">Location guide</div>
           <h1>Where to play cricket in the Philippines</h1>
           <p className="lead">
-            People often search for a sport by asking where they can actually play it. I rebuilt this page
-            to target that local intent more directly and connect it to clubs, beginner content, and community resources.
+            One of the most practical questions people ask is where they can actually play. This page focuses on local intent and connects venue discovery with clubs, beginner content, and community resources.
           </p>
         </div>
       </section>
@@ -40,11 +39,9 @@ export default function PlaygroundsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>What makes this page valuable</h2>
+            <h2>What makes a good location page</h2>
             <p>
-              A good local-intent page should not just mention a few places. It should reduce the friction between curiosity
-              and action. Someone landing here should quickly understand whether the sport is accessible, who to contact,
-              and which page to visit next.
+              A useful local-intent page should reduce the friction between curiosity and action. Someone landing here should quickly understand whether the sport feels accessible, who to contact, and which page to visit next.
             </p>
 
             <div className="grid-3">
@@ -59,7 +56,7 @@ export default function PlaygroundsPage() {
             <h2>Useful next actions from this page</h2>
             <ul>
               <li>Move to clubs and community information</li>
-              <li>Check the beginner guide before buying equipment</li>
+              <li>Read the beginner guide before buying equipment</li>
               <li>Explore the event calendar for seasonal activity</li>
               <li>Use the gear pages for bats, balls, and starter equipment</li>
             </ul>

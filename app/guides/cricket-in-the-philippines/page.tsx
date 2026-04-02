@@ -26,9 +26,7 @@ export default function CricketGuidePage() {
           <div className="kicker">Main guide</div>
           <h1>Cricket in the Philippines</h1>
           <p className="lead">
-            This is the main evergreen page of the site. I wanted it to work as the central entry point
-            for broad searches while still moving readers smoothly into clubs, places to play, beginner
-            explainers, and equipment pages.
+            Cricket in the Philippines has enough history, community structure, and grassroots activity to support a deeper guide than a simple overview. This page is the broad entry point into clubs, venues, beginner pathways, and cricket gear.
           </p>
         </div>
       </section>
@@ -36,23 +34,21 @@ export default function CricketGuidePage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why this page sits at the center of the structure</h2>
+            <h2>Why this page sits at the center of the site</h2>
             <p>
-              Broad topic pages matter because they do several jobs at once. They capture discovery demand,
-              establish trust, define the topic clearly, and create the strongest internal linking starting point
-              for the rest of the cluster.
+              Broad topic pages do several jobs at once. They capture discovery demand, establish trust, define the subject clearly, and create a strong internal-linking point for the rest of the cluster.
             </p>
 
             <h2>Local context and background</h2>
             <p>
-              I used real background on the local game to make the page feel more grounded. The topic has enough history,
-              community structure, and development activity to support a proper niche content build instead of a thin one-page summary.
+              Cricket in the country is often linked to the long-running Nomads Sports Club tradition in Manila, the work of the Philippine Cricket Association,
+              and a wider effort to keep the game visible through clubs, development activity, and organised competition.
             </p>
 
             <div className="callout">
-              <strong>Why the context matters</strong>
+              <strong>Why context helps</strong>
               <p className="small" style={{ marginBottom: 0 }}>
-                A niche guide becomes stronger when it is tied to real entities, recognizable local context, and useful next steps.
+                A niche guide feels more credible when it is tied to recognisable organisations, useful local context, and clear next actions for the reader.
               </p>
             </div>
 
@@ -65,11 +61,11 @@ export default function CricketGuidePage() {
               <li>cricket training philippines</li>
             </ul>
 
-            <h2>Supporting pages connected from here</h2>
+            <h2>Good next pages from here</h2>
             <ol>
               <li>A beginner guide that lowers the entry barrier</li>
               <li>A venues page for local and location-specific searches</li>
-              <li>A club and community page for participation intent</li>
+              <li>A clubs page for participation intent</li>
               <li>A comparison page for tape-ball versus hard-ball searches</li>
               <li>A product cluster for gear-related and buying-intent keywords</li>
             </ol>

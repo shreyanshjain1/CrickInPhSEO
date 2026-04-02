@@ -5,13 +5,14 @@ import { researchKeywords, seoWorkItems } from '@/lib/site-data';
 export const metadata: Metadata = {
   title: 'SEO work and keyword research',
   description:
-    'A breakdown of the keyword clusters, page architecture, on-page work, technical setup, and commercial SEO improvements used across this project.',
+    'A breakdown of the keyword research, content architecture, internal linking, on-page SEO, and technical setup used across this cricket website.',
   keywords: [
-    'SEO case study cricket',
+    'SEO work cricket philippines',
     'keyword research example',
+    'content architecture SEO',
+    'internal linking strategy',
+    'technical SEO example',
     'commercial SEO structure',
-    'content hub architecture',
-    'SEO portfolio project',
   ],
   alternates: { canonical: '/seo-work' },
 };
@@ -22,10 +23,10 @@ export default function SeoWorkPage() {
       <section className="page-hero">
         <div className="container section-head">
           <div className="kicker">SEO work</div>
-          <h1>SEO work behind the site</h1>
+          <h1>SEO work and keyword research</h1>
           <p className="lead">
-            I used this build to show how I think through keyword research, topic clustering, page architecture,
-            internal linking, technical SEO basics, and commercial search intent inside one small but expandable project.
+            This page outlines the search strategy, content structure, internal linking, and technical SEO foundations
+            used across the site.
           </p>
         </div>
       </section>
@@ -33,7 +34,7 @@ export default function SeoWorkPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>What I implemented</h2>
+            <h2>Areas I focused on</h2>
             <div className="grid-3">
               {seoWorkItems.map((item) => (
                 <article className="feature soft-panel" key={item.title}>
@@ -43,56 +44,88 @@ export default function SeoWorkPage() {
               ))}
             </div>
 
-            <h2>Keyword clusters I planned around</h2>
+            <h2>Keyword clusters</h2>
+            <p>
+              The keyword planning was grouped by search intent so the content could cover discovery, education,
+              participation, and product-related queries without overlapping too heavily across pages.
+            </p>
+
             <div className="grid-2 keyword-board">
               <article className="resource-box">
                 <h3>Core topic cluster</h3>
                 <ul>
-                  {researchKeywords.core.map((item) => <li key={item}>{item}</li>)}
+                  {researchKeywords.core.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </article>
+
               <article className="resource-box">
                 <h3>Beginner cluster</h3>
                 <ul>
-                  {researchKeywords.beginner.map((item) => <li key={item}>{item}</li>)}
+                  {researchKeywords.beginner.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </article>
+
               <article className="resource-box">
                 <h3>Commercial cluster</h3>
                 <ul>
-                  {researchKeywords.commercial.map((item) => <li key={item}>{item}</li>)}
+                  {researchKeywords.commercial.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </article>
+
               <article className="resource-box">
                 <h3>Support cluster</h3>
                 <ul>
-                  {researchKeywords.support.map((item) => <li key={item}>{item}</li>)}
+                  {researchKeywords.support.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </article>
             </div>
 
-            <h2>How I shaped the page architecture</h2>
+            <h2>Content architecture</h2>
             <ol>
-              <li>I kept the homepage broad so it could work like a genuine topic hub instead of trying to rank for every term by itself.</li>
-              <li>I used separate pages for beginner education, local participation, comparisons, and equipment because each one serves a different search intent.</li>
-              <li>I expanded the commercial side into bats, balls, beginner kits, and protective equipment so the internal links and buyer queries feel more natural.</li>
-              <li>I gave the site a dedicated SEO work page so I can document the process without making the public pages sound like a portfolio write-up.</li>
+              <li>The homepage is structured as a broad hub that introduces the topic and routes visitors into more specific pages.</li>
+              <li>Separate pages were created for beginner queries, playing locations, clubs, format comparisons, and equipment-related searches.</li>
+              <li>Commercial pages were split into more targeted sections such as gear, bats, balls, kits, and protective equipment.</li>
+              <li>The site architecture was planned to support both user navigation and stronger internal linking between related topics.</li>
             </ol>
 
-            <h2>On-page and technical work included</h2>
+            <h2>On-page SEO work</h2>
             <ul>
-              <li>Unique metadata titles and descriptions across the main pages</li>
-              <li>Canonical paths for each route</li>
-              <li>Robots and sitemap aligned to the live domain</li>
-              <li>Homepage JSON-LD using website and FAQ schema</li>
-              <li>Internal links between guides, local pages, and commercial pages</li>
-              <li>Content sections built around related entities, questions, and next-step links</li>
+              <li>Unique page titles and meta descriptions across the main routes</li>
+              <li>Consistent heading hierarchy for readability and topical clarity</li>
+              <li>Intent-based page copy instead of generic filler content</li>
+              <li>Contextual internal links between guides, comparison pages, local pages, and gear pages</li>
+              <li>Content sections shaped around common questions, supporting phrases, and related entities</li>
             </ul>
 
-            <h2>Why a new site may not appear in search yet</h2>
+            <h2>Technical SEO setup</h2>
+            <ul>
+              <li>Canonical paths configured for the main routes</li>
+              <li>Robots and sitemap aligned to the live production domain</li>
+              <li>Homepage structured data using Website and FAQ schema</li>
+              <li>Static page generation for fast loading and clean delivery</li>
+              <li>Clear route structure to keep the site crawlable and easy to expand</li>
+            </ul>
+
+            <h2>Commercial SEO direction</h2>
             <p>
-              Even with solid structure, a brand-new site still needs to be crawled and indexed, then earn relevance over time.
-              A sitemap helps discovery, but it does not guarantee indexing on its own. Search Console submission and recrawl requests can help speed up discovery after you publish updates.
+              Beyond informational content, the site includes commercial-intent pages for cricket products in the
+              Philippines. This helps connect top-of-funnel searches such as learning and comparison queries with more
+              transactional searches related to bats, balls, protective gear, and beginner kits.
+            </p>
+
+            <h2>Indexing and growth considerations</h2>
+            <p>
+              A well-structured site still needs time to be crawled, indexed, and trusted. Publishing pages, keeping
+              the sitemap updated, submitting the site through Search Console, and continuing to expand internal linking
+              and topical coverage all help improve long-term search visibility.
             </p>
           </article>
 

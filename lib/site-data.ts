@@ -1,8 +1,43 @@
 export const site = {
   name: 'Cricket in the Philippines',
-  url: 'https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app',
+  url: 'https://crick-in-ph-seo.vercel.app',
   description:
-    'A content-rich website about cricket in the Philippines covering where to play, how to start, local clubs, events, and cricket gear buying guides.',
+    'A content-rich guide to cricket in the Philippines covering how to start, where to play, clubs, formats, events, and cricket gear buying guides.',
+};
+
+export const researchKeywords = {
+  core: [
+    'cricket in the philippines',
+    'cricket philippines',
+    'play cricket in manila',
+    'where to play cricket in the philippines',
+    'cricket clubs philippines',
+    'philippine cricket association',
+  ],
+  beginner: [
+    'how to start playing cricket in the philippines',
+    'cricket for beginners philippines',
+    'cricket for beginners manila',
+    'tape ball vs hard ball cricket',
+    'what do you need to play cricket',
+  ],
+  commercial: [
+    'cricket gear philippines',
+    'cricket bat philippines',
+    'cricket ball philippines',
+    'beginner cricket kit philippines',
+    'cricket protective gear philippines',
+    'buy cricket bat philippines',
+    'best beginner cricket bat philippines',
+  ],
+  support: [
+    'cricket training philippines',
+    'cricket grounds manila',
+    'cricket community philippines',
+    'women cricket philippines',
+    'youth cricket philippines',
+    'cricket events philippines',
+  ],
 };
 
 export const stats = [
@@ -19,46 +54,68 @@ export const stats = [
     label: 'The ICC member profile notes active clubs and organised cricket activity across the country.',
   },
   {
-    value: 'Guides + gear',
-    label: 'The site covers beginner content, local participation, and cricket buying guides in one structure.',
+    value: '12+ pages',
+    label: 'The site connects discovery content, local intent pages, and commercial buying guides.',
   },
 ];
 
 export const features = [
   {
-    title: 'Clear topical clusters',
-    body: 'The site is grouped around the main ways people search: learning the sport, finding where to play, joining clubs, comparing formats, and buying equipment.',
+    title: 'Clear topic clusters',
+    body: 'The site separates evergreen guides, beginner content, local discovery pages, and gear categories so every page can answer a more specific search intent.',
   },
   {
-    title: 'Commercial pages with real intent',
-    body: 'The gear pages are written as useful buying guides with links to relevant marketplaces, not thin sales pages with no context.',
+    title: 'Stronger internal links',
+    body: 'Guide pages push readers toward clubs, venues, comparisons, and gear pages instead of leaving every topic trapped inside one long article.',
   },
   {
-    title: 'Technical SEO foundations',
-    body: 'Metadata, JSON-LD, crawlable internal links, a sitemap, and robots support are already built into the codebase.',
+    title: 'Commercial search coverage',
+    body: 'Gear, bats, balls, beginner kits, and protective equipment each carry different buying questions, so the product section is split into natural subtopics.',
+  },
+  {
+    title: 'Search-ready structure',
+    body: 'Every page has a distinct title, description, canonical path, and a role inside the overall structure so the site is easier to crawl and understand.',
+  },
+  {
+    title: 'Useful public pages',
+    body: 'The public-facing pages read like a real niche content site first, while the SEO work itself is documented in a dedicated page.',
+  },
+  {
+    title: 'Room to grow',
+    body: 'The structure can keep expanding into city pages, gear comparisons, tournament recaps, and more specific buyer guides without becoming messy.',
   },
 ];
 
 export const roadmap = [
   {
-    phase: 'Local pages',
-    title: 'Expand city-level coverage',
-    body: 'The strongest next step is a deeper set of city and venue pages for Metro Manila, Clark, Cebu, and Davao with club contacts and beginner-friendly notes.',
+    phase: 'Local SEO',
+    title: 'Create city-level participation pages',
+    body: 'Manila, Cebu, Angeles, and Davao can each support their own where-to-play page with club references, map context, and beginner questions.',
   },
   {
-    phase: 'Gear content',
-    title: 'Build deeper product clusters',
-    body: 'Protective gear, gloves, pads, shoes, and beginner bundles can each support their own intent-driven page with stronger FAQs and buyer comparisons.',
+    phase: 'Commercial growth',
+    title: 'Expand product clusters',
+    body: 'Shoes, gloves, pads, helmets, and junior gear can each support dedicated category pages with stronger buyer FAQs and comparison content.',
   },
   {
     phase: 'Freshness',
-    title: 'Publish seasonal updates',
-    body: 'Tournament recaps, training clinics, youth programs, and women’s cricket updates can keep the topic fresh while supporting evergreen guides.',
+    title: 'Add event and season updates',
+    body: 'Tournament recaps, clinics, women’s cricket updates, and youth development content help keep the topic fresh and support the evergreen pages.',
+  },
+  {
+    phase: 'Authority',
+    title: 'Add first-hand signals',
+    body: 'Interviews, venue notes, club roundups, and original photos can improve uniqueness and make the site stronger than a purely desk-research build.',
   },
   {
     phase: 'Measurement',
-    title: 'Track outbound and engagement events',
-    body: 'The most useful events here are clicks to official organisations, marketplace clicks, and movement through the beginner journey into clubs or gear pages.',
+    title: 'Track intent paths',
+    body: 'The most useful events here are guide-to-club clicks, guide-to-gear clicks, marketplace clicks, and visits into the useful links and calendar pages.',
+  },
+  {
+    phase: 'SERP coverage',
+    title: 'Publish comparison pages',
+    body: 'Beginner bat vs Kashmir willow, training ball vs leather ball, and beginner kit vs buying items separately are natural comparison targets.',
   },
 ];
 
@@ -75,6 +132,10 @@ export const faqs = [
     q: 'Can you buy cricket gear in the Philippines?',
     a: 'Yes. Cricket bats, balls, and beginner gear can be found through Philippine marketplaces such as Lazada and Shopee, alongside international cricket retailers.',
   },
+  {
+    q: 'Why might a new site not show up right away when I search for it?',
+    a: 'A new site still needs to be crawled and indexed. Strong internal linking, a sitemap, Search Console submission, and time all matter before a site appears consistently for searches.',
+  },
 ];
 
 export const sidebarLinks = [
@@ -87,8 +148,11 @@ export const sidebarLinks = [
   { href: '/shop/cricket-gear-philippines', label: 'Cricket gear' },
   { href: '/shop/cricket-bats-philippines', label: 'Cricket bats' },
   { href: '/shop/cricket-balls-philippines', label: 'Cricket balls' },
+  { href: '/shop/beginner-cricket-kits-philippines', label: 'Beginner kits' },
+  { href: '/shop/cricket-protective-gear-philippines', label: 'Protective gear' },
   { href: '/news/philippines-cricket-calendar', label: 'Calendar & events' },
   { href: '/about-site', label: 'Useful links' },
+  { href: '/seo-work', label: 'SEO work' },
   { href: '/roadmap', label: 'Growth topics' },
 ];
 
@@ -96,7 +160,7 @@ export const featuredCards = [
   {
     href: '/guides/cricket-in-the-philippines',
     title: 'Cricket in the Philippines',
-    body: 'An evergreen guide introducing the local scene, key organisations, and the best next pages to visit.',
+    body: 'An evergreen guide covering the local scene, official organisations, and the best next pages to visit.',
   },
   {
     href: '/beginners/getting-started',
@@ -106,21 +170,48 @@ export const featuredCards = [
   {
     href: '/resources/playgrounds',
     title: 'Where to play',
-    body: 'A location-led guide for players looking for fields, clubs, practice environments, and possible entry points.',
+    body: 'A location-led guide for players looking for grounds, clubs, practice environments, and entry points.',
   },
   {
     href: '/shop/cricket-gear-philippines',
     title: 'Cricket gear in the Philippines',
-    body: 'A gear hub covering bats, balls, and beginner buying questions with direct marketplace pathways.',
+    body: 'A commercial gear hub covering bats, balls, starter kits, and buyer questions with direct marketplace pathways.',
   },
   {
     href: '/news/philippines-cricket-calendar',
     title: 'Calendar and events',
-    body: 'A season guide for tournament recaps, community activity, and event-led content opportunities.',
+    body: 'A season guide for tournaments, community activity, and freshness-led content opportunities.',
   },
   {
-    href: '/about-site',
-    title: 'Useful links',
-    body: 'Official organisations, marketplaces, and cricket resources that help readers move beyond the guide pages.',
+    href: '/seo-work',
+    title: 'SEO work',
+    body: 'A dedicated page documenting keyword research, page architecture, internal linking, on-page work, and indexing steps.',
+  },
+];
+
+export const seoWorkItems = [
+  {
+    title: 'Intent-based page planning',
+    body: 'I split the topic into discovery, beginner, comparison, local intent, and buying-intent pages instead of burying everything inside one article.',
+  },
+  {
+    title: 'Keyword clusters',
+    body: 'I mapped core topic terms, beginner questions, and commercial gear searches into separate clusters so the page targeting stays cleaner.',
+  },
+  {
+    title: 'Metadata and canonicals',
+    body: 'Every page has a unique title, description, and canonical path to keep the structure easier for search engines to understand.',
+  },
+  {
+    title: 'Sitemap and robots',
+    body: 'I configured robots and sitemap output and aligned them with the live domain so the site can be submitted cleanly in Search Console.',
+  },
+  {
+    title: 'Schema support',
+    body: 'The site already uses JSON-LD on the homepage, and the structure is ready for FAQ, breadcrumb, and article-style schema expansion.',
+  },
+  {
+    title: 'Commercial SEO layer',
+    body: 'I expanded the gear section into bats, balls, beginner kits, and protective equipment so the site can target more specific buyer intent.',
   },
 ];

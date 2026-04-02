@@ -11,9 +11,9 @@ export default function PageSidebar() {
         </Link>
       ))}
       <div className="callout neutral-callout">
-        <strong>Popular pathways</strong>
+        <strong>Start here</strong>
         <p className="small" style={{ marginBottom: 0 }}>
-          Start with the main guide, move into clubs or venues, then use the gear pages once you know which format you want to play.
+          New readers usually begin with the main guide, then move into clubs, venues, or gear depending on what they want next.
         </p>
       </div>
     </aside>

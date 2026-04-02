@@ -5,13 +5,13 @@ export default function Footer() {
         <div className="panel footer-panel">
           <h3>Cricket in the Philippines</h3>
           <p className="footer-note">
-            Guides, clubs, venues, beginner resources, and cricket gear pages for readers exploring the local game.
+            Guides, clubs, venues, beginner resources, useful links, and cricket gear pages for readers exploring the local game.
           </p>
         </div>
         <div className="panel footer-panel">
           <h3>Inside the site</h3>
           <p className="footer-note">
-            Main guide, beginner pathways, local discovery pages, event content, and equipment pages for bats, balls, and starter gear.
+            Evergreen topic pages, local discovery content, event pages, and commercial equipment content for bats, balls, kits, and protective gear.
           </p>
         </div>
       </div>

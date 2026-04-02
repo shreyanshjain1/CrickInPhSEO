@@ -31,28 +31,28 @@ export default function HomePage() {
       <section className="hero hero-v2">
         <div className="container hero-grid hero-grid-v2">
           <div className="hero-copy hero-copy-v2 card">
-            <span className="eyebrow">Cricket guides, clubs, and gear</span>
-            <h1>Cricket in the Philippines: where to play, how to start, and what to buy.</h1>
+            <span className="eyebrow">Cricket guides, venues, clubs, and gear</span>
+            <h1>Cricket in the Philippines</h1>
             <p className="lead">
-              This site brings together the main things people usually look for when they discover cricket in the Philippines:
-              beginner guides, local clubs, playing venues, format explainers, and equipment pages for bats, balls, and starter gear.
+              A guide for people who want to understand the local cricket scene, find places to play, compare formats,
+              and buy the right gear without guessing.
             </p>
             <div className="hero-actions">
               <Link href="/guides/cricket-in-the-philippines" className="button primary">
-                Read the main guide
+                Start with the main guide
               </Link>
-              <Link href="/shop/cricket-gear-philippines" className="button secondary">
-                Explore cricket gear
+              <Link href="/beginners/getting-started" className="button secondary">
+                Getting started
               </Link>
             </div>
           </div>
 
           <div className="hero-side hero-side-v2">
             <div className="hero-highlight card soft-card">
-              <div className="kicker">Inside the site</div>
+              <div className="kicker">Popular paths</div>
               <p className="lead compact-lead">
-                Start broad with the main guide, move into clubs and venues if you want to play, then use the gear hub for
-                bats, balls, and beginner buying questions.
+                Read the main guide first, then move into clubs, venues, or equipment depending on whether you want to play,
+                learn, or buy.
               </p>
             </div>
             <div className="metric-grid metric-grid-v2">
@@ -71,7 +71,10 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <div className="kicker">Featured sections</div>
-            <h2>Start with the page that matches what you need</h2>
+            <h2>Explore the part of the topic you care about most</h2>
+            <p className="section-copy">
+              Some readers arrive wanting the basics. Others want a field, a club, or a place to buy gear. The site is split so each path feels natural.
+            </p>
           </div>
           <div className="grid-3">
             {featuredCards.map((item) => (
@@ -86,28 +89,30 @@ export default function HomePage() {
 
       <section>
         <div className="container split-callout split-callout-v2">
-          <article className="card page-copy">
+          <article className="card page-copy compact-card">
             <div className="kicker">For new players</div>
             <h2>Learn the sport without getting overwhelmed</h2>
             <p>
-              If you are completely new to cricket, the easiest path is to start with the beginner guide, understand the difference
-              between tape-ball and hard-ball cricket, and then check where local clubs or practice sessions are active.
+              If you are completely new to cricket, the easiest route is to understand the format first, check whether there is a
+              club or casual game near you, and only then buy the equipment you actually need.
             </p>
-            <p>
-              That gives you a clearer route into the sport before you spend money on equipment that may not match the format you play.
-            </p>
+            <div className="inline-links">
+              <Link href="/beginners/getting-started" className="tag-link">Beginner guide</Link>
+              <Link href="/compare/tape-ball-vs-hard-ball" className="tag-link">Tape ball vs hard ball</Link>
+              <Link href="/resources/playgrounds" className="tag-link">Where to play</Link>
+            </div>
           </article>
-          <article className="card page-copy">
+          <article className="card page-copy compact-card">
             <div className="kicker">For gear buyers</div>
-            <h2>Product pages built around real buying intent</h2>
+            <h2>Shop with better context</h2>
             <p>
-              The gear section is split into natural categories so readers can move from general cricket gear into bats and balls,
-              compare options, and then visit Philippine marketplaces or international cricket stores with more confidence.
+              The gear section is organised by buyer intent, with separate pages for general gear, bats, balls, starter kits,
+              and protective equipment so readers can move from research into product pages more confidently.
             </p>
             <div className="inline-links">
               <Link href="/shop/cricket-gear-philippines" className="tag-link">Gear hub</Link>
               <Link href="/shop/cricket-bats-philippines" className="tag-link">Cricket bats</Link>
-              <Link href="/shop/cricket-balls-philippines" className="tag-link">Cricket balls</Link>
+              <Link href="/shop/beginner-cricket-kits-philippines" className="tag-link">Beginner kits</Link>
             </div>
           </article>
         </div>
@@ -117,7 +122,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <div className="kicker">Site strengths</div>
-            <h2>Why this structure works</h2>
+            <h2>What makes the structure stronger</h2>
           </div>
           <div className="grid-3">
             {features.map((item) => (
@@ -136,7 +141,7 @@ export default function HomePage() {
             <div className="kicker">FAQ</div>
             <h2>Common questions</h2>
           </div>
-          <div className="grid-3">
+          <div className="grid-2">
             {faqs.map((item) => (
               <article className="faq-item card" key={item.q}>
                 <h3>{item.q}</h3>

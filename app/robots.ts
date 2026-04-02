@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app/sitemap.xml',
+    sitemap: 'https://crick-in-ph-seo.vercel.app/sitemap.xml',
   };
 }

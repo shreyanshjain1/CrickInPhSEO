@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
 
         <nav className="nav">
-          {sidebarLinks.slice(1, 7).map((item) => (
+          {sidebarLinks.slice(1, 8).map((item) => (
             <Link key={item.href} href={item.href}>
               {item.label}
             </Link>

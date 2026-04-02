@@ -10,16 +10,24 @@ const routes = [
   '/shop/cricket-gear-philippines',
   '/shop/cricket-bats-philippines',
   '/shop/cricket-balls-philippines',
+  '/shop/beginner-cricket-kits-philippines',
+  '/shop/cricket-protective-gear-philippines',
   '/news/philippines-cricket-calendar',
   '/about-site',
+  '/seo-work',
   '/roadmap',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
-    url: `https://crick-in-ph-993tbhwit-shreyanshmanishjain-2649s-projects.vercel.app${route}`,
+    url: `https://crick-in-ph-seo.vercel.app${route}`,
     lastModified: new Date(),
-    changeFrequency: route.includes('/news/') ? 'daily' : 'weekly',
-    priority: route === '' ? 1 : route.startsWith('/guides/') || route.startsWith('/shop/') ? 0.9 : 0.7,
+    changeFrequency: route.includes('/news/') ? 'daily' : route.startsWith('/shop/') ? 'weekly' : 'monthly',
+    priority:
+      route === ''
+        ? 1
+        : route.startsWith('/guides/') || route.startsWith('/shop/') || route === '/seo-work'
+          ? 0.9
+          : 0.7,
   }));
 }

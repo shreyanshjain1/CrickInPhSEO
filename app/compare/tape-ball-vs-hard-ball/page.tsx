@@ -1,11 +1,10 @@
-
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
   title: 'Tape ball vs hard ball cricket',
   description:
-    'A comparison page built to capture beginner search demand and guide new users toward the right next step.',
+    'A comparison page for beginners deciding between tape-ball and hard-ball cricket, with practical next-step guidance.',
   alternates: { canonical: '/compare/tape-ball-vs-hard-ball' },
 };
 
@@ -14,11 +13,10 @@ export default function ComparisonPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Comparison page</div>
+          <div className="kicker">Comparison</div>
           <h1>Tape ball vs hard ball cricket</h1>
           <p className="lead">
-            I included this page because comparison content is one of the easiest ways to capture
-            beginner demand, answer real questions clearly, and move users deeper into the site.
+            Comparison pages are useful because they answer real beginner questions quickly. I kept this page because it helps the site catch curiosity-driven searches and move readers into the right next content.
           </p>
         </div>
       </section>
@@ -26,44 +24,35 @@ export default function ComparisonPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why I wanted this page in the site structure</h2>
+            <h2>Why comparison content belongs here</h2>
             <p>
-              Comparison pages can rank for question-style searches, lower the learning barrier, and
-              help users figure out which type of page they need next. They are especially useful in
-              sports niches where many users are still deciding how serious they want to get.
+              Someone who is brand new to cricket may not know what gear they need, how formal the sport feels, or whether they should start casually first. This page exists to lower that decision barrier.
             </p>
 
             <h2>Quick comparison</h2>
             <div className="grid-2">
               <article className="resource-box">
-                <h3>Tape ball cricket</h3>
+                <h3>Tape-ball cricket</h3>
                 <ul>
-                  <li>Usually feels more approachable for beginners</li>
-                  <li>Works well in casual, social, and lower-barrier settings</li>
-                  <li>Can be a softer entry point before formal training</li>
+                  <li>Usually easier for casual and beginner play</li>
+                  <li>Lower pressure entry point for social games</li>
+                  <li>Useful for introducing the sport without full protective setup</li>
                 </ul>
               </article>
               <article className="resource-box">
-                <h3>Hard ball cricket</h3>
+                <h3>Hard-ball cricket</h3>
                 <ul>
-                  <li>Closer to formal competitive play</li>
-                  <li>Demands more attention to safety and protective gear</li>
-                  <li>Better fit for players moving toward structured competition</li>
+                  <li>Closer to formal and competitive match play</li>
+                  <li>Needs more attention to safety equipment</li>
+                  <li>Better fit for players progressing into club structures</li>
                 </ul>
               </article>
             </div>
 
-            <h2>What this page does for the rest of the website</h2>
-            <p>
-              I can link it to beginner equipment pages, club pages, and the main guide. That makes
-              it a useful mid-funnel asset: educational enough to attract broad traffic, but practical
-              enough to push users into more commercial or participation-focused content.
-            </p>
-
-            <div className="callout">
-              <strong>Why it helps the portfolio</strong>
+            <div className="callout neutral-callout">
+              <strong>Where this page helps the site</strong>
               <p className="small" style={{ marginBottom: 0 }}>
-                It shows that I am not just thinking about ranking pages. I am thinking about how different page types support a complete user journey.
+                It acts as a bridge between broad beginner traffic and more specific pages like getting started, clubs, bats, and balls.
               </p>
             </div>
           </article>

@@ -1,4 +1,3 @@
-
 import type { Metadata } from 'next';
 import JsonLd from '@/components/JsonLd';
 import PageSidebar from '@/components/PageSidebar';
@@ -6,7 +5,7 @@ import PageSidebar from '@/components/PageSidebar';
 export const metadata: Metadata = {
   title: 'Cricket in the Philippines',
   description:
-    'My cornerstone page on cricket in the Philippines, covering history, structure, local search intent, and beginner pathways.',
+    'A practical guide to cricket in the Philippines covering the local scene, beginner pathways, clubs, and where to play.',
   alternates: { canonical: '/guides/cricket-in-the-philippines' },
 };
 
@@ -16,7 +15,7 @@ export default function CricketGuidePage() {
     '@type': 'Article',
     headline: 'Cricket in the Philippines',
     description:
-      'A structured guide page about cricket in the Philippines for users discovering the sport, community options, and beginner information.',
+      'A structured guide page about cricket in the Philippines for people discovering the sport, the community, and the next steps for getting involved.',
   };
 
   return (
@@ -24,12 +23,12 @@ export default function CricketGuidePage() {
       <JsonLd data={articleSchema} />
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Cornerstone guide</div>
+          <div className="kicker">Main guide</div>
           <h1>Cricket in the Philippines</h1>
           <p className="lead">
-            I wrote this page as the main trust-building hub of the site. It gives the topic enough
-            context to support discovery searches, while also feeding users into clubs, venues, gear,
-            and beginner comparison pages.
+            This is the main evergreen page of the site. I wanted it to work as the central entry point
+            for broad searches while still moving readers smoothly into clubs, places to play, beginner
+            explainers, and equipment pages.
           </p>
         </div>
       </section>
@@ -37,59 +36,43 @@ export default function CricketGuidePage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why I made this the pillar page</h2>
+            <h2>Why this page sits at the center of the structure</h2>
             <p>
-              If I were building this topic for a real client, this would be the page I would want to
-              anchor the whole content cluster. It targets broad, discovery-intent queries while
-              giving me room to link into more specific pages with better action intent.
+              Broad topic pages matter because they do several jobs at once. They capture discovery demand,
+              establish trust, define the topic clearly, and create the strongest internal linking starting point
+              for the rest of the cluster.
             </p>
 
-            <h2>Real background I used to shape the content</h2>
+            <h2>Local context and background</h2>
             <p>
-              Official ICC member information says cricket in the Philippines is closely associated
-              with Nomads Sports Club in Manila, where the game has been played since 1914. The same
-              ICC profile also says the Philippines Cricket Association has been an ICC member since
-              2003, and that the local season typically runs from October into early June.
+              I used real background on the local game to make the page feel more grounded. The topic has enough history,
+              community structure, and development activity to support a proper niche content build instead of a thin one-page summary.
             </p>
 
             <div className="callout">
-              <strong>Why this matters for SEO</strong>
+              <strong>Why the context matters</strong>
               <p className="small" style={{ marginBottom: 0 }}>
-                Those details help build trust, strengthen entity relationships, and make the page feel grounded in real context instead of generic filler content.
+                A niche guide becomes stronger when it is tied to real entities, recognizable local context, and useful next steps.
               </p>
             </div>
 
-            <h2>Search intent buckets supported by this page</h2>
+            <h2>Search intents this page supports</h2>
             <ul>
               <li>cricket in the philippines</li>
-              <li>philippines cricket association</li>
+              <li>how to play cricket in the philippines</li>
+              <li>philippines cricket clubs</li>
               <li>where to play cricket in manila</li>
-              <li>how to start playing cricket in the philippines</li>
-              <li>cricket clubs in the philippines</li>
+              <li>cricket training philippines</li>
             </ul>
 
-            <h2>How I would keep expanding the cluster</h2>
+            <h2>Supporting pages connected from here</h2>
             <ol>
-              <li>Add city-specific pages for Manila, Cavite, Clark, Cebu, and Davao</li>
-              <li>Add beginner equipment explainers and budget gear pages</li>
-              <li>Add tournament recap templates to support freshness and seasonal demand</li>
-              <li>Add club and youth pathway pages that answer practical participation questions</li>
-              <li>Add FAQ sections tied to search console impressions and real community questions</li>
+              <li>A beginner guide that lowers the entry barrier</li>
+              <li>A venues page for local and location-specific searches</li>
+              <li>A club and community page for participation intent</li>
+              <li>A comparison page for tape-ball versus hard-ball searches</li>
+              <li>A product cluster for gear-related and buying-intent keywords</li>
             </ol>
-
-            <h2>Why I think this niche works well as a case study</h2>
-            <p>
-              It lets me show more than just blogging. I can demonstrate local SEO structure,
-              evergreen authority content, comparison content, and product-led SEO all within the
-              same topic. That gives the project much more range.
-            </p>
-
-            <h2>Fresh growth angle</h2>
-            <p>
-              The Philippine Cricket Association currently runs both men&apos;s and women&apos;s national teams,
-              plus school, college, and barangay development programs. That creates room for youth,
-              development, event, and participation content that could keep growing over time.
-            </p>
           </article>
 
           <PageSidebar />

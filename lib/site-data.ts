@@ -1,89 +1,125 @@
-
 export const site = {
-  name: 'Cricket in the Philippines — SEO Case Study',
+  name: 'Cricket in the Philippines',
   url: 'https://example.com',
   description:
-    'A first-person SEO and content case study focused on cricket in the Philippines, built to show how I approach topical authority, internal linking, commercial search intent, and product-led content.',
+    'A content-rich website about cricket in the Philippines covering where to play, how to start, community resources, and cricket gear buying guides.',
 };
 
 export const stats = [
   {
     value: '1914',
-    label: 'ICC member information ties cricket in the Philippines to Nomads Sports Club in Manila since 1914.',
+    label: 'Cricket in Manila is commonly linked to the long-running Nomads Sports Club tradition.',
   },
   {
     value: '2003',
-    label: 'The Philippines Cricket Association has been an ICC member since 2003.',
+    label: 'The Philippines Cricket Association became an ICC member in 2003.',
   },
   {
     value: '26 clubs',
-    label: 'ICC member information notes 26 active clubs participating in organised competitions.',
+    label: 'Organised cricket activity in the country now spans multiple clubs and development pathways.',
   },
   {
-    value: 'Search + UX',
-    label: 'I used this project to show page architecture, structured content, and conversion-aware copy.',
+    value: 'Beginner to buyer',
+    label: 'This site connects discovery content, local guides, and cricket gear pages in one structure.',
   },
 ];
 
 export const features = [
   {
-    title: 'Intent-led information architecture',
-    body: 'I separated discovery, comparison, local, and product intent into distinct page types so the site feels like a real SEO system instead of one long article.',
+    title: 'A cleaner topical structure',
+    body: 'I organized the site around the natural ways people search: learning the sport, finding where to play, comparing formats, joining communities, and buying gear.',
   },
   {
-    title: 'Internal links with a job to do',
-    body: 'The main guide passes users into clubs, venues, comparisons, and product discovery pages. Each page exists to move users into the next relevant action.',
+    title: 'Commercial pages that feel useful',
+    body: 'The gear pages are written as buying guides instead of thin sales pages, so they support trust, search intent, and outbound clicks to relevant product options.',
   },
   {
-    title: 'SEO for informational and commercial demand',
-    body: 'I added product-led content around cricket gear in the Philippines so the site demonstrates that I can support both awareness traffic and gear-related purchase intent.',
+    title: 'SEO foundations built into the code',
+    body: 'I kept the structure crawlable and added metadata, JSON-LD helpers, robots, and sitemap support so the site is stronger technically, not only editorially.',
   },
 ];
 
 export const roadmap = [
   {
-    phase: 'Research',
-    title: 'Map the search landscape',
-    body: 'I would keep expanding this by clustering local-intent keywords, beginner questions, commercial product queries, and seasonal event searches into dedicated page templates.',
+    phase: 'Content',
+    title: 'Expand city and venue coverage',
+    body: 'The strongest next step would be city pages for Metro Manila, Clark, Cebu, and Davao with more specific venue, club, and beginner information.',
   },
   {
-    phase: 'Content',
-    title: 'Build stronger topical depth',
-    body: 'The next content layer would be beginner equipment guides, city-specific pages, tournament roundups, and club-focused landing pages that answer practical user questions.',
+    phase: 'Commercial SEO',
+    title: 'Build deeper product clusters',
+    body: 'I would continue with category pages for bats, balls, gloves, pads, and beginner bundles, then support them with how-to-choose content and FAQs.',
+  },
+  {
+    phase: 'Authority',
+    title: 'Add fixtures and event templates',
+    body: 'Fresh event pages can support returning traffic, help internal linking, and create more reasons for community pages to earn links and shares.',
   },
   {
     phase: 'Measurement',
-    title: 'Track action-oriented behaviour',
-    body: 'I would measure outbound clicks to official associations, product-page clicks, scroll depth on guides, and newsletter or enquiry conversions from community pages.',
-  },
-  {
-    phase: 'Iteration',
-    title: 'Improve based on performance',
-    body: 'As pages gain data, I would refine titles, FAQs, section order, and CTA placement to improve both CTR and on-page conversion behaviour.',
+    title: 'Track real user actions',
+    body: 'The right events to measure here are outbound clicks to clubs and associations, clicks to product marketplaces, and engagement with the beginner content journey.',
   },
 ];
 
 export const faqs = [
   {
-    q: 'Why did I choose cricket in the Philippines for this case study?',
-    a: 'It is niche enough to stand out, but broad enough to support history pages, local discovery, community pages, and commercial product searches. That mix makes it a strong SEO showcase topic.',
+    q: 'Can you play cricket in the Philippines as a complete beginner?',
+    a: 'Yes. A good beginner experience usually starts with community-led sessions, tape-ball play, or club introductions before moving into more formal hard-ball cricket.',
   },
   {
-    q: 'What skills does this project demonstrate?',
-    a: 'It shows how I think about content architecture, internal linking, structured data, page intent, and commercial SEO opportunities on a real website build.',
+    q: 'Why does this site include both guides and product pages?',
+    a: 'Because people do not search in only one way. Some want to learn first, some want to find a club, and some are already looking for bats, balls, or starter gear.',
   },
   {
-    q: 'Why add product-related pages to a niche sports topic?',
-    a: 'Because stronger SEO portfolios should show range. Informational pages build authority, while product-led pages show that I can also work with commercial intent and buyer journeys.',
+    q: 'What was my goal in building the site this way?',
+    a: 'I wanted the site to feel like a real niche publication with a commercial layer, not a landing page pretending to be a content strategy.',
   },
 ];
 
 export const sidebarLinks = [
   { href: '/', label: 'Home' },
-  { href: '/guides/cricket-in-the-philippines', label: 'Main guide' },
-  { href: '/resources/playgrounds', label: 'Playgrounds & venues' },
+  { href: '/guides/cricket-in-the-philippines', label: 'Cricket in PH' },
+  { href: '/beginners/getting-started', label: 'Getting started' },
+  { href: '/resources/playgrounds', label: 'Where to play' },
+  { href: '/clubs', label: 'Clubs & community' },
   { href: '/compare/tape-ball-vs-hard-ball', label: 'Tape ball vs hard ball' },
-  { href: '/clubs', label: 'Community & clubs' },
-  { href: '/shop/cricket-gear-philippines', label: 'Cricket gear in PH' },
-  { href: '/roadmap', label: 'Project notes' },
+  { href: '/shop/cricket-gear-philippines', label: 'Cricket gear' },
+  { href: '/shop/cricket-bats-philippines', label: 'Cricket bats' },
+  { href: '/shop/cricket-balls-philippines', label: 'Cricket balls' },
+  { href: '/news/philippines-cricket-calendar', label: 'Calendar & events' },
+  { href: '/about-site', label: 'About this build' },
+];
+
+export const featuredCards = [
+  {
+    href: '/guides/cricket-in-the-philippines',
+    title: 'Cricket in the Philippines',
+    body: 'An evergreen guide that introduces the local scene, the governing structure, and the best next pages to visit.',
+  },
+  {
+    href: '/beginners/getting-started',
+    title: 'How to get started',
+    body: 'A practical beginner path that covers first steps, formats, basic gear, and the easiest way to enter the sport locally.',
+  },
+  {
+    href: '/resources/playgrounds',
+    title: 'Where to play',
+    body: 'A location-focused guide for people looking for fields, clubs, practice environments, and likely entry points.',
+  },
+  {
+    href: '/shop/cricket-gear-philippines',
+    title: 'Buy cricket gear in the Philippines',
+    body: 'A commercial hub that ties together gear education, marketplace demand, and product-specific buying pages.',
+  },
+  {
+    href: '/news/philippines-cricket-calendar',
+    title: 'Calendar and season guide',
+    body: 'A content template for fixtures, seasonality, tournaments, and event-related publishing opportunities.',
+  },
+  {
+    href: '/about-site',
+    title: 'About this build',
+    body: 'The one place where I explain the decisions behind the architecture, UI direction, and SEO structure.',
+  },
 ];

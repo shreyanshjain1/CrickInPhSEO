@@ -1,26 +1,25 @@
-
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
-  title: 'Cricket playgrounds and venues in the Philippines',
+  title: 'Where to play cricket in the Philippines',
   description:
-    'A venue-focused page showing how I would target local and action-oriented searches around cricket in the Philippines.',
+    'A location-focused cricket page for the Philippines covering fields, practice environments, clubs, and local discovery intent.',
   alternates: { canonical: '/resources/playgrounds' },
 };
 
-const venues = [
+const venueIdeas = [
   {
-    name: 'Nomads Sports Club as the historic anchor',
-    body: 'I used Nomads as the strongest credibility signal because ICC member information directly ties the country’s cricket history in Manila to Nomads Sports Club since 1914.',
+    title: 'Metro Manila and nearby hubs',
+    body: 'A location page should start where search demand is most practical. Metro Manila gives the topic enough volume, enough community history, and enough adjacent areas to support local discovery pages later.',
   },
   {
-    name: 'Friendship Oval and organised competition context',
-    body: 'The Philippine Cricket Association references Friendship Oval and organised fixtures, which makes venue and event pages a natural extension of the topic cluster.',
+    title: 'Club-led participation',
+    body: 'In niche sports, the place to play is often tied to club access, training days, and community contacts rather than a clean list of public venues. That is why this page should connect directly into clubs and beginner resources.',
   },
   {
-    name: 'Local expansion pages by city',
-    body: 'If I kept building this, I would branch venue pages into city and region pages so users could search more specific “where to play” queries instead of landing on one generic page.',
+    title: 'Location SEO opportunities',
+    body: 'This section can expand into pages like cricket in Manila, cricket in Clark, or beginner cricket near me style content once there is enough local information to support them properly.',
   },
 ];
 
@@ -29,11 +28,11 @@ export default function PlaygroundsPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Local intent page</div>
-          <h1>Cricket playgrounds and venues in the Philippines</h1>
+          <div className="kicker">Location guide</div>
+          <h1>Where to play cricket in the Philippines</h1>
           <p className="lead">
-            I designed this page around users who are already closer to action: people trying to
-            figure out where they can play, train, watch, or start learning cricket locally.
+            People often search for a sport by asking where they can actually play it. I rebuilt this page
+            to target that local intent more directly and connect it to clubs, beginner content, and community resources.
           </p>
         </div>
       </section>
@@ -41,46 +40,29 @@ export default function PlaygroundsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why venue pages matter</h2>
+            <h2>What makes this page valuable</h2>
             <p>
-              Local discovery pages often carry stronger intent than broad awareness content. Someone
-              searching for places to play is usually much closer to taking action, so I treat venue
-              content as a bridge between information and participation.
+              A good local-intent page should not just mention a few places. It should reduce the friction between curiosity
+              and action. Someone landing here should quickly understand whether the sport is accessible, who to contact,
+              and which page to visit next.
             </p>
 
-            <h2>What I would include on a fully developed venue page</h2>
-            <ul>
-              <li>Location details and practical access information</li>
-              <li>Who the venue is best suited for</li>
-              <li>Session type: social games, juniors, training, women&apos;s cricket</li>
-              <li>Beginner notes on what to bring and what to expect</li>
-              <li>Links to clubs, fixtures, official resources, and gear pages</li>
-            </ul>
-
-            <h2>Seed content examples</h2>
             <div className="grid-3">
-              {venues.map((venue) => (
-                <article className="resource-box" key={venue.name}>
-                  <h3>{venue.name}</h3>
-                  <p>{venue.body}</p>
+              {venueIdeas.map((block) => (
+                <article className="club-box" key={block.title}>
+                  <h3>{block.title}</h3>
+                  <p>{block.body}</p>
                 </article>
               ))}
             </div>
 
-            <div className="split-callout">
-              <div className="callout">
-                <strong>SEO thinking</strong>
-                <p className="small" style={{ marginBottom: 0 }}>
-                  I would measure these pages differently from evergreen guides because venue pages are closer to action and should generate stronger outbound click behaviour.
-                </p>
-              </div>
-              <div className="callout">
-                <strong>Expansion idea</strong>
-                <p className="small" style={{ marginBottom: 0 }}>
-                  A useful next iteration would be city-specific pages for Manila, Cavite, Clark, Cebu, and Davao based on local cricket activity and search demand.
-                </p>
-              </div>
-            </div>
+            <h2>Useful next actions from this page</h2>
+            <ul>
+              <li>Move to clubs and community information</li>
+              <li>Check the beginner guide before buying equipment</li>
+              <li>Explore the event calendar for seasonal activity</li>
+              <li>Use the gear pages for bats, balls, and starter equipment</li>
+            </ul>
           </article>
 
           <PageSidebar />

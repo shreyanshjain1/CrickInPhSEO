@@ -1,26 +1,25 @@
-
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
   title: 'Cricket clubs and community in the Philippines',
   description:
-    'A community-focused page built around participation, trust signals, and beginner pathways for cricket in the Philippines.',
+    'A community-focused cricket page about clubs, beginner pathways, and how the local cricket scene connects people to the sport.',
   alternates: { canonical: '/clubs' },
 };
 
 const blocks = [
   {
     title: 'Official pathway',
-    body: 'I wanted official association content to be the trust anchor of this section, because it helps connect the site to legitimate development, fixtures, and player pathways.',
+    body: 'The community page should lean on official and recognizable entities first. That trust signal matters in a niche sport because it reassures new players that the scene is active and organised.',
   },
   {
-    title: 'Beginner questions',
-    body: 'A good community page should answer practical questions fast: where people can join, what gear they need, how often sessions happen, and whether complete beginners are welcome.',
+    title: 'Beginner-friendly intent',
+    body: 'Most people who land here are not looking for a perfect history lesson. They want to know if they can join, what the atmosphere is like, and whether they need full gear before turning up.',
   },
   {
-    title: 'Growth content',
-    body: 'Women’s cricket, youth programs, and development initiatives create strong opportunities for fresh content that feels useful instead of repetitive.',
+    title: 'Fresh content opportunities',
+    body: 'Women’s cricket, youth development, school programs, and club-level updates can all support more current content and stronger internal links from evergreen pages.',
   },
 ];
 
@@ -32,8 +31,7 @@ export default function ClubsPage() {
           <div className="kicker">Community page</div>
           <h1>Cricket clubs and community in the Philippines</h1>
           <p className="lead">
-            I built this page to connect curiosity with action. It is meant to support users who want
-            to join, follow official organisations, or simply understand how the local cricket scene works.
+            I wanted this page to feel useful first. Instead of reading like a note to recruiters, it now behaves more like a page someone would actually visit when they want to join, follow, or understand the local scene.
           </p>
         </div>
       </section>
@@ -41,11 +39,10 @@ export default function ClubsPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>What I wanted this page to do</h2>
+            <h2>Why community pages matter in a niche sport</h2>
             <p>
-              I did not want this section to feel like a dead-end list of names. A useful community
-              page should remove friction and help someone take the next step, whether that means
-              reaching an official body, finding a club, or understanding how beginner pathways work.
+              In a developing sports ecosystem, community pages do a lot of heavy lifting. They answer beginner questions, connect visitors to the right official resources,
+              and create the trust that makes people more willing to explore clubs, events, and equipment pages.
             </p>
 
             <div className="grid-3">
@@ -57,20 +54,12 @@ export default function ClubsPage() {
               ))}
             </div>
 
-            <h2>Practical CTA ideas</h2>
+            <h2>What this page should guide people toward</h2>
             <ul>
-              <li>Visit the official Philippine Cricket Association website</li>
-              <li>Check the development program for youth and beginner opportunities</li>
-              <li>Look at fixtures and event schedules</li>
-              <li>Move into equipment and beginner guide pages</li>
-            </ul>
-
-            <h2>How I would measure this page</h2>
-            <ul>
-              <li>Outbound clicks to official association resources</li>
-              <li>Clicks into beginner guide and venue pages</li>
-              <li>Scroll depth and engagement with FAQs</li>
-              <li>Newsletter or enquiry conversions if the project added a form later</li>
+              <li>Official association resources and updates</li>
+              <li>Beginner pathways and development activity</li>
+              <li>Venue and training discovery</li>
+              <li>Equipment explainers for first-time players</li>
             </ul>
           </article>
 

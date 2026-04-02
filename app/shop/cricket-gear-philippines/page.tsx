@@ -1,41 +1,25 @@
-
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
   title: 'Cricket gear in the Philippines',
   description:
-    'A product-led SEO page focused on cricket gear searches in the Philippines, with buyer-friendly guidance and outbound links to relevant resources.',
+    'A commercial-intent buying guide for cricket gear in the Philippines, including starter gear, bats, balls, and shopping pathways.',
   alternates: { canonical: '/shop/cricket-gear-philippines' },
 };
 
-const productAreas = [
+const productSections = [
   {
-    title: 'Cricket bats',
-    body: 'This category captures broad commercial intent from users looking to buy a bat locally, compare beginner options, or explore entry-level and wooden bat searches.',
-    links: [
-      { label: 'Lazada cricket bat category', href: 'https://www.lazada.com.ph/tag/cricket-bat/' },
-      { label: 'Lazada beginner cricket bat results', href: 'https://www.lazada.com.ph/tag/beginner-cricket-bat/' },
-      { label: 'Lazada wooden cricket bat results', href: 'https://www.lazada.com.ph/tag/cricket-bat-wooden/' },
-    ],
+    title: 'Starter gear',
+    body: 'A good gear hub should explain what a beginner actually needs first, instead of dumping every product type onto the page. That usually starts with a bat, a ball, and a clearer explanation of format-specific gear.',
   },
   {
-    title: 'Bat and ball starter sets',
-    body: 'Starter-set and accessory searches can attract newer players who are not ready to choose products item by item. These queries are useful for beginner-focused SEO.',
-    links: [
-      { label: 'Lazada cricket bat and ball results', href: 'https://www.lazada.com.ph/tag/cricket-bat-and-ball/' },
-      { label: 'Lazada cricket bat ball results', href: 'https://www.lazada.com.ph/tag/cricket-bat-ball/' },
-      { label: 'Lazada wooden cricket bat category', href: 'https://www.lazada.com.ph/tag/wooden-cricket-bat/' },
-    ],
+    title: 'Bats and balls',
+    body: 'These are the clearest product-led topics, so I split them into dedicated pages as well. That makes keyword targeting cleaner and avoids turning one page into a messy catch-all.',
   },
   {
-    title: 'Community and official pathways',
-    body: 'Not every user is ready to buy immediately. Some will want clubs, training, fixtures, or official information first. That is why I linked the product page back into official and community resources.',
-    links: [
-      { label: 'Philippine Cricket Association', href: 'https://cricketphilippines.com/' },
-      { label: 'PCA development program', href: 'https://cricketphilippines.com/development-program/' },
-      { label: 'PCA club cricket', href: 'https://cricketphilippines.com/club-cricket/' },
-    ],
+    title: 'Marketplace intent',
+    body: 'In the Philippines, product demand often shows up through marketplace searches first. So this page is designed to support informational confidence and then move users toward relevant shopping paths.',
   },
 ];
 
@@ -44,12 +28,10 @@ export default function CricketGearPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Commercial intent page</div>
+          <div className="kicker">Commercial SEO</div>
           <h1>Cricket gear in the Philippines</h1>
           <p className="lead">
-            I added this page to show that I can handle product-led SEO as well as informational
-            content. It targets purchase-adjacent searches and gives users practical paths into gear,
-            starter options, and official local resources.
+            I pushed the commercial side of the site further here. Instead of one generic product page, this section now works like a gear hub with clearer pathways into bats, balls, and beginner buying decisions.
           </p>
         </div>
       </section>
@@ -57,58 +39,36 @@ export default function CricketGearPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Why this page matters in the overall SEO structure</h2>
+            <h2>How I structured the gear hub</h2>
             <p>
-              A lot of SEO portfolios stay stuck in awareness content. I wanted this build to show
-              that I can also create pages around commercial search intent. Even in a niche sports
-              topic, product pages help demonstrate keyword targeting, on-page structure, and CTA thinking.
+              A stronger commercial page should not feel like a thin affiliate page. It needs enough useful information to help the reader make sense of what they need,
+              while still keeping the route to products and marketplaces visible.
             </p>
 
-            <h2>How I would approach gear-related search intent</h2>
-            <ul>
-              <li>Group broad gear demand into bats, starter sets, and accessories</li>
-              <li>Create beginner-focused pages before jumping straight into high-spec products</li>
-              <li>Support category pages with comparison content and beginner explainers</li>
-              <li>Use internal links to move users between information, community, and product pages</li>
-            </ul>
-
             <div className="grid-3">
-              {productAreas.map((area) => (
-                <article className="product-box" key={area.title}>
-                  <h3>{area.title}</h3>
-                  <p>{area.body}</p>
-                  <div className="inline-links">
-                    {area.links.map((link) => (
-                      <a
-                        key={link.href}
-                        href={link.href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="tag-link"
-                      >
-                        {link.label}
-                      </a>
-                    ))}
-                  </div>
+              {productSections.map((block) => (
+                <article className="product-box" key={block.title}>
+                  <h3>{block.title}</h3>
+                  <p>{block.body}</p>
                 </article>
               ))}
             </div>
 
-            <h2>Buyer-friendly content sections I would add next</h2>
-            <ol>
-              <li>Best beginner cricket bats in the Philippines</li>
-              <li>Cricket bat and ball sets for casual play</li>
-              <li>Protective gear checklist for new hard-ball players</li>
-              <li>How to choose between tape-ball and hard-ball starter gear</li>
-              <li>Where to play after buying your first gear set</li>
-            </ol>
-
-            <div className="callout">
-              <strong>Why I like this section for portfolio use</strong>
-              <p className="small" style={{ marginBottom: 0 }}>
-                It makes the project look more complete. It shows that I can connect non-brand informational content with commercial pages and real buyer journeys.
-              </p>
+            <h2>Recommended shopping paths</h2>
+            <div className="inline-links">
+              <a className="tag-link" href="https://www.lazada.com.ph/tag/cricket-bat/" target="_blank" rel="noreferrer">Lazada cricket bats</a>
+              <a className="tag-link" href="https://www.lazada.com.ph/catalog/?q=cricket+ball" target="_blank" rel="noreferrer">Lazada cricket balls</a>
+              <a className="tag-link" href="https://shopee.ph/search?keyword=cricket%20bat" target="_blank" rel="noreferrer">Shopee cricket bats</a>
+              <a className="tag-link" href="https://www.cricketstoreonline.com/" target="_blank" rel="noreferrer">International cricket store reference</a>
             </div>
+
+            <h2>Commercial pages linked from here</h2>
+            <ul>
+              <li>Dedicated category page for cricket bats in the Philippines</li>
+              <li>Dedicated category page for cricket balls in the Philippines</li>
+              <li>Beginner guide that explains what to buy first</li>
+              <li>Comparison content that helps users choose the right gear path</li>
+            </ul>
           </article>
 
           <PageSidebar />

@@ -1,31 +1,36 @@
-# Cricket in the Philippines — SEO Case Study
+# Cricket in the Philippines
 
-I built this project to showcase how I approach SEO strategy, content architecture, internal linking, structured metadata, and product-aware page planning on a real Next.js site.
+I rebuilt this project to feel more like a real niche website and less like a project that only exists to explain itself.
 
-Instead of making a generic demo, I chose **cricket in the Philippines** because it gave me room to build:
-- a broad evergreen guide
-- local-intent pages
-- comparison content
-- community pages
-- commercial/product-led SEO content
+The topic is still **cricket in the Philippines**, but I pushed it further in two directions:
+- a cleaner editorial structure for discovery, beginner, and local-intent content
+- a stronger commercial layer for cricket gear, bats, and balls
 
-## What this project demonstrates
+## What I changed in this version
 
-- **Information architecture:** I separated discovery, local, comparison, community, and commercial intent into different page types.
-- **Internal linking strategy:** The pages connect logically instead of living as isolated articles.
-- **Structured content:** The site includes metadata and JSON-LD support to make the content more search-friendly.
-- **Buyer-aware SEO:** I added a gear page with real outbound product-category links to show how I think about commercial intent.
-- **Frontend execution:** I built the project in Next.js with a custom UI instead of stopping at a content outline.
+- rewrote the homepage so it feels more natural and content-led
+- removed the obvious instructional wording from the public pages
+- added a beginner guide page
+- added an events and calendar page
+- expanded the shopping section into a gear hub plus dedicated bat and ball pages
+- added `robots.ts` and `sitemap.ts` for a stronger SEO baseline
+- updated the design system to look more intentional and less generic
+- upgraded Next.js to a patched release line
 
 ## Pages included
 
-- `/` — home page
-- `/guides/cricket-in-the-philippines` — cornerstone guide
-- `/resources/playgrounds` — venue and local-intent page
+- `/` — homepage
+- `/guides/cricket-in-the-philippines` — main evergreen guide
+- `/beginners/getting-started` — beginner pathway page
+- `/resources/playgrounds` — where to play / local-intent page
+- `/clubs` — community and club-focused page
 - `/compare/tape-ball-vs-hard-ball` — comparison page
-- `/clubs` — community and clubs page
-- `/shop/cricket-gear-philippines` — product-led SEO page
-- `/roadmap` — project notes and future improvements
+- `/shop/cricket-gear-philippines` — gear hub
+- `/shop/cricket-bats-philippines` — bat category page
+- `/shop/cricket-balls-philippines` — ball category page
+- `/news/philippines-cricket-calendar` — freshness and event page
+- `/about-site` — first-person notes on the rebuild
+- `/roadmap` — future improvements
 
 ## Stack
 
@@ -33,19 +38,13 @@ Instead of making a generic demo, I chose **cricket in the Philippines** because
 - React 19
 - TypeScript
 - App Router
-- Plain CSS
+- Custom CSS
 
 ## Local setup
 
 ```bash
 npm install
 npm run dev
-```
-
-Open:
-
-```bash
-http://localhost:3000
 ```
 
 ## Production build
@@ -55,19 +54,9 @@ npm run build
 npm run start
 ```
 
-## Why I think this works as a portfolio project
+## Notes to update after deployment
 
-This is not just a fan site and it is not just a page mockup. I built it to show both **strategy** and **execution**:
-
-- how I would structure a content cluster
-- how I think about intent and user journeys
-- how I would connect informational and commercial pages
-- how I translate that into a working site
-
-## Next improvements I would make
-
-- add a fuller keyword map based on real research
-- add more product and beginner gear pages
-- add event and tournament templates for fresh content
-- add breadcrumb and article schema on more pages
-- add analytics and conversion tracking
+Replace `https://example.com` in the following files with the real domain:
+- `lib/site-data.ts`
+- `app/robots.ts`
+- `app/sitemap.ts`

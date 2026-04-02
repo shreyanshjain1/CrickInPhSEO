@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { sidebarLinks } from '@/lib/site-data';
 
@@ -6,8 +7,8 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand">
-          <span className="brand-badge">CP</span>
-          <span>Cricket PH Growth Lab</span>
+          <span className="brand-badge">CI</span>
+          <span>Cricket in the Philippines</span>
         </Link>
 
         <nav className="nav">

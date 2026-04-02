@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
@@ -7,8 +8,8 @@ import { site } from '@/lib/site-data';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: 'Cricket PH Growth Lab',
-    template: '%s | Cricket PH Growth Lab',
+    default: site.name,
+    template: `%s | ${site.name}`,
   },
   description: site.description,
   alternates: { canonical: '/' },

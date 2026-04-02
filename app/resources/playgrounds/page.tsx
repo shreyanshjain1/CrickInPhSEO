@@ -1,25 +1,26 @@
+
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 
 export const metadata: Metadata = {
   title: 'Cricket playgrounds and venues in the Philippines',
   description:
-    'A resource page structure for venue-focused and local discovery searches around cricket in the Philippines.',
+    'A venue-focused page showing how I would target local and action-oriented searches around cricket in the Philippines.',
   alternates: { canonical: '/resources/playgrounds' },
 };
 
 const venues = [
   {
-    name: 'Nomads Sports Club area (Manila context)',
-    body: 'This page uses Nomads as the strongest historical anchor because official ICC member information ties cricket in the Philippines to Nomads Sports Club in Manila since 1914.',
+    name: 'Nomads Sports Club as the historic anchor',
+    body: 'I used Nomads as the strongest credibility signal because ICC member information directly ties the country’s cricket history in Manila to Nomads Sports Club since 1914.',
   },
   {
-    name: 'Association-led venue discovery pages',
-    body: 'As this project expands, this page should branch into city-specific pages such as Manila, Metro South, or school-based cricket access pages with maps, schedule notes, and beginner guidance.',
+    name: 'Friendship Oval and organised competition context',
+    body: 'The Philippine Cricket Association references Friendship Oval and organised fixtures, which makes venue and event pages a natural extension of the topic cluster.',
   },
   {
-    name: 'Event and training venue templates',
-    body: 'Create reusable page templates for clinics, youth sessions, and women’s cricket pathway events so fresh content can be published faster without breaking structure.',
+    name: 'Local expansion pages by city',
+    body: 'If I kept building this, I would branch venue pages into city and region pages so users could search more specific “where to play” queries instead of landing on one generic page.',
   },
 ];
 
@@ -28,11 +29,11 @@ export default function PlaygroundsPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Local discovery page</div>
+          <div className="kicker">Local intent page</div>
           <h1>Cricket playgrounds and venues in the Philippines</h1>
           <p className="lead">
-            This page is designed for users searching where they can play, join, observe, or start
-            learning cricket locally.
+            I designed this page around users who are already closer to action: people trying to
+            figure out where they can play, train, watch, or start learning cricket locally.
           </p>
         </div>
       </section>
@@ -42,18 +43,18 @@ export default function PlaygroundsPage() {
           <article className="card page-copy">
             <h2>Why venue pages matter</h2>
             <p>
-              Venue and local-discovery content often converts better than general awareness content
-              because the user is already closer to action. On a real project, these pages should
-              include maps, contact paths, schedule information, beginner notes, and related clubs.
+              Local discovery pages often carry stronger intent than broad awareness content. Someone
+              searching for places to play is usually much closer to taking action, so I treat venue
+              content as a bridge between information and participation.
             </p>
 
-            <h2>Suggested venue page structure</h2>
+            <h2>What I would include on a fully developed venue page</h2>
             <ul>
-              <li>Location and access details</li>
-              <li>Who the venue is best for</li>
-              <li>Session format: training, social games, juniors, women&apos;s cricket</li>
-              <li>What beginners should bring</li>
-              <li>Related club and association links</li>
+              <li>Location details and practical access information</li>
+              <li>Who the venue is best suited for</li>
+              <li>Session type: social games, juniors, training, women&apos;s cricket</li>
+              <li>Beginner notes on what to bring and what to expect</li>
+              <li>Links to clubs, fixtures, official resources, and gear pages</li>
             </ul>
 
             <h2>Seed content examples</h2>
@@ -66,11 +67,19 @@ export default function PlaygroundsPage() {
               ))}
             </div>
 
-            <div className="callout">
-              <strong>Commercial SEO lesson:</strong>
-              <p className="small" style={{ marginBottom: 0 }}>
-                Even non-commercial topics still benefit from page intent. Venue pages satisfy high-action local intent and should be measured separately from informational guides.
-              </p>
+            <div className="split-callout">
+              <div className="callout">
+                <strong>SEO thinking</strong>
+                <p className="small" style={{ marginBottom: 0 }}>
+                  I would measure these pages differently from evergreen guides because venue pages are closer to action and should generate stronger outbound click behaviour.
+                </p>
+              </div>
+              <div className="callout">
+                <strong>Expansion idea</strong>
+                <p className="small" style={{ marginBottom: 0 }}>
+                  A useful next iteration would be city-specific pages for Manila, Cavite, Clark, Cebu, and Davao based on local cricket activity and search demand.
+                </p>
+              </div>
             </div>
           </article>
 

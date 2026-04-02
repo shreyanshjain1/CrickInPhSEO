@@ -1,11 +1,12 @@
+
 import type { Metadata } from 'next';
 import PageSidebar from '@/components/PageSidebar';
 import { roadmap } from '@/lib/site-data';
 
 export const metadata: Metadata = {
-  title: 'Execution roadmap',
+  title: 'Project notes',
   description:
-    'A practical execution roadmap for turning this cricket SEO project into a stronger portfolio case study.',
+    'A first-person breakdown of how I approached this cricket SEO case study and how I would expand it further.',
   alternates: { canonical: '/roadmap' },
 };
 
@@ -14,11 +15,11 @@ export default function RoadmapPage() {
     <main>
       <section className="page-hero">
         <div className="container section-head">
-          <div className="kicker">Execution plan</div>
-          <h1>How to turn this into a serious portfolio case study</h1>
+          <div className="kicker">Project notes</div>
+          <h1>How I approached this SEO case study</h1>
           <p className="lead">
-            This roadmap is written so you can keep shipping commits and turn this from a neat site
-            into a stronger hiring asset.
+            I wanted this build to feel like something I could genuinely show in a portfolio, so I
+            used this page to explain my thinking in plain language instead of leaving behind instructions.
           </p>
         </div>
       </section>
@@ -26,7 +27,7 @@ export default function RoadmapPage() {
       <section>
         <div className="container page-shell">
           <article className="card page-copy">
-            <h2>Phase-by-phase buildout</h2>
+            <h2>How I framed the project</h2>
             <div className="grid-2">
               {roadmap.map((item) => (
                 <article className="roadmap-item" key={item.title}>
@@ -37,34 +38,34 @@ export default function RoadmapPage() {
               ))}
             </div>
 
-            <h2>Suggested next commits</h2>
+            <h2>What I would add next</h2>
             <ol>
-              <li>Add a dedicated keyword map in the repo README.</li>
-              <li>Add GA4 event naming plan and measurement documentation.</li>
-              <li>Create a news or tournament page template for fresh content.</li>
-              <li>Add breadcrumb schema and article schema to cluster pages.</li>
-              <li>Create one stronger conversion action such as a newsletter signup page.</li>
+              <li>A more complete keyword map based on search console and third-party tools</li>
+              <li>Dedicated beginner gear pages by budget and skill level</li>
+              <li>Fresh content templates for fixtures, tournaments, and local events</li>
+              <li>More structured data, especially breadcrumb and article schema on cluster pages</li>
+              <li>A measurable conversion action such as newsletter signup or event enquiry</li>
             </ol>
 
-            <h2>GA4 event plan</h2>
+            <h2>Sample GA4 events I would track</h2>
             <ul>
-              <li>join_club_click</li>
               <li>official_link_click</li>
-              <li>newsletter_signup</li>
-              <li>guide_depth_75</li>
-              <li>cta_compare_click</li>
+              <li>gear_link_click</li>
+              <li>club_page_click</li>
+              <li>guide_scroll_75</li>
+              <li>comparison_cta_click</li>
             </ul>
 
-            <h2>Content expansion map</h2>
+            <h2>How I think about the content architecture</h2>
             <div className="code-block">
 {`Home
 ├─ Cricket in the Philippines
 │  ├─ How to start playing cricket in Manila
-│  ├─ Beginner cricket equipment guide
+│  ├─ Beginner cricket gear in the Philippines
 │  ├─ Tape ball vs hard ball cricket
-│  └─ Cricket clubs and community
-├─ Venues and local discovery
-└─ Tournament / news templates`}
+│  └─ Clubs and community
+├─ Playgrounds and venues
+└─ Product-led gear page`}
             </div>
           </article>
 

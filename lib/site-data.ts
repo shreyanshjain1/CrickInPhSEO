@@ -1,79 +1,80 @@
+
 export const site = {
-  name: 'Cricket PH Growth Lab',
-  url: 'https://example.vercel.app',
+  name: 'Cricket in the Philippines — SEO Case Study',
+  url: 'https://example.com',
   description:
-    'An SEO-first Next.js project about cricket in the Philippines, combining commercial content execution, structured landing pages, and a practical growth roadmap.',
+    'A first-person SEO and content case study focused on cricket in the Philippines, built to show how I approach topical authority, internal linking, commercial search intent, and product-led content.',
 };
 
 export const stats = [
   {
     value: '1914',
-    label: 'Nomads Sports Club in Manila has been associated with cricket since 1914.',
+    label: 'ICC member information ties cricket in the Philippines to Nomads Sports Club in Manila since 1914.',
   },
   {
     value: '2003',
-    label: 'The Philippines Cricket Association became an ICC affiliate member in 2003.',
+    label: 'The Philippines Cricket Association has been an ICC member since 2003.',
   },
   {
-    value: '2025',
-    label: 'The Philippines women\'s team made its debut in an ICC pathway event in 2025.',
+    value: '26 clubs',
+    label: 'ICC member information notes 26 active clubs participating in organised competitions.',
   },
   {
-    value: 'SEO + UX',
-    label: 'Built to showcase search intent, content structure, schema, and conversion planning.',
+    value: 'Search + UX',
+    label: 'I used this project to show page architecture, structured content, and conversion-aware copy.',
   },
 ];
 
 export const features = [
   {
-    title: 'Search-intent-led content',
-    body: 'Every page targets a distinct intent bucket: discover, compare, learn, and take action. This mirrors how a commercial SEO lead should structure a content system.',
+    title: 'Intent-led information architecture',
+    body: 'I separated discovery, comparison, local, and product intent into distinct page types so the site feels like a real SEO system instead of one long article.',
   },
   {
-    title: 'Structured internal linking',
-    body: 'The homepage points into cluster pages, guide pages, and resource pages to create a clean crawl path and stronger page relationships.',
+    title: 'Internal links with a job to do',
+    body: 'The main guide passes users into clubs, venues, comparisons, and product discovery pages. Each page exists to move users into the next relevant action.',
   },
   {
-    title: 'Conversion-aware copy',
-    body: 'The content is not just informational. It demonstrates CTA placement, FAQ support, and audience-focused page sections that can be measured later in GA4.',
+    title: 'SEO for informational and commercial demand',
+    body: 'I added product-led content around cricket gear in the Philippines so the site demonstrates that I can support both awareness traffic and gear-related purchase intent.',
   },
 ];
 
 export const roadmap = [
   {
-    phase: 'Phase 1',
-    title: 'Research the real search landscape',
-    body: 'Map keywords around playing cricket, watching cricket, beginner equipment, clubs, community events, and youth pathways in the Philippines.',
+    phase: 'Research',
+    title: 'Map the search landscape',
+    body: 'I would keep expanding this by clustering local-intent keywords, beginner questions, commercial product queries, and seasonal event searches into dedicated page templates.',
   },
   {
-    phase: 'Phase 2',
-    title: 'Build intent clusters and landing pages',
-    body: 'Create pages for awareness, comparison, local discovery, and community conversion. Add metadata, FAQs, and JSON-LD from the start.',
+    phase: 'Content',
+    title: 'Build stronger topical depth',
+    body: 'The next content layer would be beginner equipment guides, city-specific pages, tournament roundups, and club-focused landing pages that answer practical user questions.',
   },
   {
-    phase: 'Phase 3',
-    title: 'Track leads and engagement',
-    body: 'Measure clicks on join-club CTAs, newsletter signups, event interest, outbound association links, and guide consumption depth in GA4.',
+    phase: 'Measurement',
+    title: 'Track action-oriented behaviour',
+    body: 'I would measure outbound clicks to official associations, product-page clicks, scroll depth on guides, and newsletter or enquiry conversions from community pages.',
   },
   {
-    phase: 'Phase 4',
-    title: 'Expand with fresh topical authority',
-    body: 'Publish recurring pages such as tournament roundups, beginner guides, local venue pages, and equipment explainers to compound visibility.',
+    phase: 'Iteration',
+    title: 'Improve based on performance',
+    body: 'As pages gain data, I would refine titles, FAQs, section order, and CTA placement to improve both CTR and on-page conversion behaviour.',
   },
 ];
 
 export const faqs = [
   {
-    q: 'Is cricket actually played in the Philippines?',
-    a: 'Yes. The Philippines has an official cricket association, national teams, and participation in ICC pathways. The local search opportunity is not just around history but around community, beginner access, and discovery.',
+    q: 'Why did I choose cricket in the Philippines for this case study?',
+    a: 'It is niche enough to stand out, but broad enough to support history pages, local discovery, community pages, and commercial product searches. That mix makes it a strong SEO showcase topic.',
   },
   {
-    q: 'Why is this a good SEO portfolio topic?',
-    a: 'It is niche enough to stand out, broad enough to support multiple page types, and technical enough to demonstrate strategy, structure, and measurable conversion thinking.',
+    q: 'What skills does this project demonstrate?',
+    a: 'It shows how I think about content architecture, internal linking, structured data, page intent, and commercial SEO opportunities on a real website build.',
   },
   {
-    q: 'Can this project be deployed to Vercel?',
-    a: 'Yes. It is a standard Next.js app using the App Router, static-friendly content, and no backend dependencies.',
+    q: 'Why add product-related pages to a niche sports topic?',
+    a: 'Because stronger SEO portfolios should show range. Informational pages build authority, while product-led pages show that I can also work with commercial intent and buyer journeys.',
   },
 ];
 
@@ -83,5 +84,6 @@ export const sidebarLinks = [
   { href: '/resources/playgrounds', label: 'Playgrounds & venues' },
   { href: '/compare/tape-ball-vs-hard-ball', label: 'Tape ball vs hard ball' },
   { href: '/clubs', label: 'Community & clubs' },
-  { href: '/roadmap', label: 'Execution roadmap' },
+  { href: '/shop/cricket-gear-philippines', label: 'Cricket gear in PH' },
+  { href: '/roadmap', label: 'Project notes' },
 ];

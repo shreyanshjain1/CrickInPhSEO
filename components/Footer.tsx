@@ -1,11 +1,12 @@
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="panel" style={{ padding: '22px' }}>
-          <p style={{ margin: 0 }}>
-            Built as a portfolio-ready SEO project: topic clusters, metadata, FAQ structure,
-            internal linking, and a clean Next.js deploy path for Vercel.
+        <div className="panel" style={{ padding: '24px' }}>
+          <p className="footer-note" style={{ margin: 0 }}>
+            I built this project to showcase how I approach information architecture, content strategy,
+            internal linking, structured metadata, and product-aware SEO on a clean Next.js website.
           </p>
         </div>
       </div>

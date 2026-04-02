@@ -1,103 +1,156 @@
-# Cricket in the Philippines
+# 🏏 Cricket in the Philippines — SEO Content Hub
 
-I built this site as a niche content project around cricket in the Philippines, with a stronger emphasis on real-world SEO structure instead of a generic one-page demo.
+Live Site: https://crick-in-ph-seo.vercel.app/
 
-The goal was to make the site feel like a genuine topic property first, while still documenting the SEO thinking behind it.
+---
 
-## What I focused on
+## Overview
 
-- building a clear content hub around a niche sports topic
-- separating discovery, beginner, local-intent, comparison, and commercial pages
-- creating better internal linking between guides, clubs, venues, and gear content
-- expanding the commercial side into multiple category-style pages instead of one generic product page
-- adding a sitemap, robots file, canonical paths, and JSON-LD support
-- aligning the metadata and structured page hierarchy to the live domain
+I built this project to explore how a niche sport like cricket can grow organically in a country where it is still developing.
 
-## Keyword and topic direction
+The focus is not just content — it is how content, structure, and intent work together to drive visibility, engagement, and potential commercial outcomes.
 
-I planned the content around four main clusters:
+This site is structured as a content and commerce hybrid:
+- Educational guides for beginners
+- Location-based discovery (where to play)
+- Community and clubs
+- Product-focused pages for cricket gear
 
-### Core topic terms
-- cricket in the philippines
-- cricket philippines
-- play cricket in manila
-- where to play cricket in the philippines
-- cricket clubs philippines
-- philippine cricket association
+---
 
-### Beginner terms
-- how to start playing cricket in the philippines
-- cricket for beginners philippines
-- cricket for beginners manila
+## What I Focused On
+
+### 1. Search Intent Mapping
+Instead of writing random articles, I mapped keywords based on intent:
+
+- Informational → learning cricket
+- Navigational → clubs and locations
+- Commercial → gear and equipment
+- Comparison → tape ball vs hard ball
+
+Each page is built around a specific intent cluster.
+
+---
+
+### 2. Content Architecture
+
+The site follows a hub-style structure:
+
+- Core guide → Cricket in the Philippines
+- Supporting pages → getting started, locations, clubs
+- Commercial layer → gear, bats, balls, kits
+
+This allows internal linking to reinforce topic authority.
+
+---
+
+### 3. Keyword Clustering
+
+Instead of targeting single keywords, I grouped related queries:
+
+Example:
+
+- "cricket in philippines"
+- "is cricket popular in philippines"
+- "how to play cricket philippines"
+
+All mapped into a single structured page.
+
+---
+
+### 4. Internal Linking Strategy
+
+Pages are connected intentionally:
+
+- Guides → link to gear pages
+- Comparison pages → link to both learning and product pages
+- Gear pages → link back to use cases
+
+This improves:
+- crawlability
+- time on site
+- conversion pathways
+
+---
+
+### 5. Commercial SEO Layer
+
+I added product-focused pages such as:
+- Cricket gear in the Philippines
+- Cricket bats
+- Cricket balls
+- Beginner kits
+
+These pages target buying intent and connect informational traffic to commercial pages.
+
+---
+
+### 6. Technical SEO
+
+- Clean URL structure
+- Metadata per page
+- Sitemap generation
+- Robots configuration
+- Fast-loading static pages
+
+---
+
+### 7. Content Style
+
+Content is written to feel natural and useful:
+- No filler
+- Clear sections
+- Direct answers to real questions
+- Structured for readability and scanning
+
+---
+
+## Example Keyword Targets
+
+### Core
+- cricket in philippines
+- cricket philippines clubs
+- where to play cricket philippines
+
+### Informational
+- how to play cricket for beginners philippines
+- cricket rules philippines
 - tape ball vs hard ball cricket
-- what do you need to play cricket
 
-### Commercial terms
+### Commercial
 - cricket gear philippines
 - cricket bat philippines
 - cricket ball philippines
 - beginner cricket kit philippines
-- cricket protective gear philippines
-- buy cricket bat philippines
-- best beginner cricket bat philippines
 
-### Support terms
-- cricket training philippines
-- cricket grounds manila
-- cricket community philippines
-- women cricket philippines
-- youth cricket philippines
-- cricket events philippines
+---
 
-## Pages included
+## Tech Stack
 
-- `/` — homepage
-- `/guides/cricket-in-the-philippines` — main evergreen guide
-- `/beginners/getting-started` — beginner pathway page
-- `/resources/playgrounds` — where to play / local-intent page
-- `/clubs` — community and club-focused page
-- `/compare/tape-ball-vs-hard-ball` — comparison page
-- `/shop/cricket-gear-philippines` — gear hub
-- `/shop/cricket-bats-philippines` — bat category page
-- `/shop/cricket-balls-philippines` — ball category page
-- `/shop/beginner-cricket-kits-philippines` — starter kit page
-- `/shop/cricket-protective-gear-philippines` — protective equipment page
-- `/news/philippines-cricket-calendar` — calendar and event page
-- `/about-site` — useful cricket links page
-- `/seo-work` — SEO work and keyword research page
-- `/roadmap` — growth opportunities page
+- Next.js
+- TypeScript
+- App Router
+- Static generation
 
-## Technical work included
+---
 
-- Next.js App Router setup
-- page-level metadata
-- canonical URLs
-- sitemap generation
-- robots configuration
-- homepage JSON-LD
-- internal-link-first structure
-- live domain configured as:
+## Why I Built This
 
-`https://crick-in-ph-seo.vercel.app`
+I wanted to move beyond basic web development and build something closer to how real websites are structured for growth.
 
-## Local setup
+This project reflects how I think about:
+- search visibility
+- content strategy
+- user pathways
+- and business-driven SEO
 
-```bash
-npm install
-npm run dev
-```
+---
 
-## Production build
+## Future Improvements
 
-```bash
-npm run build
-npm run start
-```
+- Add structured data (FAQ, Product schema)
+- Expand location-based pages (city-level SEO)
+- Add real product integrations
+- Implement analytics tracking (GA4, events)
 
-## What I would improve next
-
-- city-specific pages for Manila, Cebu, Davao, and Angeles
-- deeper gear pages for pads, gloves, helmets, and shoes
-- more comparison pages for buyer intent
-- original photos, venue notes, and community interviews
-- Search Console submission and indexing follow-up after deployment
+---
